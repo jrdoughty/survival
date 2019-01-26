@@ -24,7 +24,7 @@ class Main extends hxd.App
 	override function init() 
 	{
 		Reg.reset();
-		Data.load(Res.data_cdb.entry.getText());
+		Data.load(Res.data.entry.getText());
 		engine.backgroundColor = 0x202020;
 		activeState = new MenuState(s2d);
         activeState.init();

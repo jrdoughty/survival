@@ -61,6 +61,7 @@ class Button extends h2d.Object
 	public function over(e:Event)
 	{
 		background.color.set(1.2,1.2,1.2);
+		trace('over!');
 	}
 
 	public function out(e:Event)
