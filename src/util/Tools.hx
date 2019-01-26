@@ -15,6 +15,7 @@ class Tools
         t.text = s;
         t.x = x;
         t.y = y;
+        t.color.setColor(Reg.textColor);
         return t;
     }
 }
