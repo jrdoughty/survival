@@ -11,15 +11,15 @@ class PickState extends BaseState
 	
 	public override function init()
 	{
-        Tools.createTextStringXY(this, 'bbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\nbbbbbbbbbbbbbbbbbbbb\r\n',0,0);
-		var iteration = 0;
+        var t = Tools.createTextStringXY(this, '',0,0);
+		t.maxWidth = 320;
+        var iteration = 0;
         for(i in Data.Missions.all)
         {
-            new Button(this,140 + iteration * 60, 200, 50, 30, new Bitmap(Res.button.toTile()),i.btnText , pick, 18);
+            var b = new Button(this,5 + iteration * 105, 200, 100, 30, new Bitmap(Res.button.toTile()),i.btnText, function(_){pick(i.id);}, 18);
+            b.overDelegate = function (){t.text = i.missionText;}
             iteration++;
         }
-		var pic = new Bitmap(Res.goblin1.toTile(),this);
-        pic.x = 140;
         trace(Data.Missions);
 	}
 
@@ -28,8 +28,9 @@ class PickState extends BaseState
 		super.update(dt);
 	}
 
-    function pick(e:hxd.Event)
+    function pick(missionText:String)
     {
+        Reg.curMissionID = missionText;
         Main.the.changeState(new ResultState());
     }
 

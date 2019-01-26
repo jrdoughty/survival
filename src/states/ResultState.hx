@@ -4,15 +4,21 @@ import util.Button;
 import h2d.Bitmap;
 import hxd.Res;
 import util.Tools;
+import systems.Data;
 
 class ResultState extends BaseState
 {	
 	
 	public override function init()
 	{ 
-        Tools.createTextStringXY(this, 'cccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\ncccccccccccccccccccc\r\n',0,0);
-		
-		new Button(this,140, 200, 160, 30, new Bitmap(Res.button.toTile()), "  Start your next mission", pick, 18);
+		for(i in Data.Missions.all)
+		{
+			if(i.id == Reg.curMissionID)
+			{
+	        	Tools.createTextStringXY(this, i.resultText,0,0);
+			}
+		}
+		new Button(this,140, 200, 160, 30, new Bitmap(Res.button.toTile()), "Start your next mission", pick, 18);
         var pic = new Bitmap(Res.goblin1.toTile(),this);
         pic.x = 140;
 	}
