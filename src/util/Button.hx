@@ -15,6 +15,7 @@ class Button extends h2d.Object
 	public static var buttons:Array<Button> = [];
 	public var background:Bitmap;
 	public var text:Text;
+	public var overDelegate:Void->Void;
 	//public var clickRegion:FlxObject;
 	
 	public var interactive:Interactive;
@@ -61,7 +62,8 @@ class Button extends h2d.Object
 	public function over(e:Event)
 	{
 		background.color.set(1.2,1.2,1.2);
-		trace('over!');
+		if(overDelegate != null)
+			overDelegate();
 	}
 
 	public function out(e:Event)

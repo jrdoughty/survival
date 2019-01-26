@@ -11,6 +11,7 @@ class Reg
 	
 	public static var gameWidth = 320; // Width of the game in pixels (might be less / more in actual pixels depending on your zoom).
 	public static var gameHeight = 240; // Height of the game in pixels (might be less / more in actual pixels depending on your zoom).
+	public static var images:Map<String, hxd.res.Image>;
 	
 	//public static var inLevel:Bool = false;
 
@@ -21,4 +22,29 @@ class Reg
 		exhaustion = 0;
 	}
 
+    public static function loadImagesFromImg(fileName:String):Map<String, hxd.res.Image>
+    {
+        var images = new Map<String, hxd.res.Image>();
+
+        // Загружаем img-файл и парсим его
+        var jsonData = haxe.Json.parse(hxd.Res.load(fileName).toText());
+        var fields = Reflect.fields(jsonData);
+
+        // Проходим по всем полям полученного объекта
+        for (field in fields)
+        {
+            var imgString:String = Reflect.field(jsonData, field);
+            // удаляем префикс, который CastleDB добавляет перед данными изображения
+            imgString = imgString.substr(imgString.indexOf("base64,") + "base64,".length);
+
+            // Декодируем данные изображения и загружаем их в Image (контейнер данных изображения)
+            var bytes = haxe.crypto.Base64.decode(imgString);
+            var bytesFile = new hxd.fs.BytesFileSystem.BytesFileEntry(field, bytes);
+            var image = new hxd.res.Image(bytesFile);
+
+            images.set(field, image);
+        }
+
+        return images;
+    }
 }

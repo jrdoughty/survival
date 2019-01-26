@@ -4,9 +4,8 @@
 			"name": "Missions",
 			"columns": [
 				{
-					"typeStr": "0",
-					"name": "id",
-					"display": null
+					"typeStr": "1",
+					"name": "id"
 				},
 				{
 					"typeStr": "1",
@@ -144,6 +143,41 @@
 					"flavorText": "Allow God's strength to flow through you as you feel each bead run through your fingertips. The Romans have been doing it for centuries, so it must be better than counting sheep. ",
 					"itemImage": "a8a3337d97932dddeda3212ce1514c28",
 					"flavorTitle": "Rosary (+Exhaustion)"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "config",
+			"columns": [
+				{
+					"typeStr": "11",
+					"name": "buttonColor",
+					"display": null
+				},
+				{
+					"typeStr": "11",
+					"name": "buttonHover",
+					"display": null
+				},
+				{
+					"typeStr": "11",
+					"name": "backgroundColor",
+					"display": null
+				},
+				{
+					"typeStr": "11",
+					"name": "fontColor",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"buttonColor": 13421772,
+					"backgroundColor": 2105376,
+					"fontColor": 16777215,
+					"buttonHover": 16777215
 				}
 			],
 			"separators": [],
