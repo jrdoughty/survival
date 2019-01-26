@@ -9,11 +9,12 @@ class Reg
 	public static var anxietyMod:Float = 1;
 	public static var exhaustionMod:Float = 1;
 	//Format for Int colors is AARRGGBB
-	public static var buttonColor:Int = 0xFFCCCCCC;
-	public static var buttonHoverColor:Int = 0xFFEEEEEE;
-	public static var textColor:Int = 0xFFFF00FF;
+	public static var buttonColor:Int = 0xFF906f66;
+	public static var buttonHoverColor:Int = 0xFFc6654c;
+	public static var textColor:Int = 0xFF10232b;
 	public static var buttonTextColor:Int = 0xFFFFFFFF;
-	public static var backgroundColor:Int = 0x202020;
+	public static var backgroundColor:Int = 0xFF80776f;
+	public static var missionIndex:Int = 0;
 	
 	public static var curMissionID:String = "";
 	public static var curActionID:String = "";
@@ -35,6 +36,7 @@ class Reg
 		exhaustionMod = 1;
 		curMissionID = "";
 		curActionID = "";
+		missionIndex = 0;
 	}
 
     public static function loadImagesFromImg(fileName:String):Map<String, hxd.res.Image>

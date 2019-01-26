@@ -19,8 +19,8 @@ class ResultState extends BaseState
 				{
 					if(j.id == Reg.curActionID)
 					{
-		        		Tools.createTextStringXY(this, j.resultText,0,0);
-						
+		        		var t = Tools.createTextStringXY(this, j.resultText,0,0);
+						t.maxWidth = 300;
 						Reg.anxiety += Std.int(j.anxietyEffect * Reg.anxietyMod);
 						Reg.depression += Std.int(j.depressionEffect * Reg.depressionMod);
 						Reg.exhaustion += Std.int(j.exhaustionEffect * Reg.exhaustionMod);
@@ -55,6 +55,7 @@ class ResultState extends BaseState
 
     function pick(e:hxd.Event)
     {
+		Reg.missionIndex++;
         Main.the.changeState(new PickState());
     }
 
