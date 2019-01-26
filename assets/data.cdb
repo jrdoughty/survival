@@ -61,6 +61,39 @@
 			],
 			"separators": [],
 			"props": {}
+		},
+		{
+			"name": "items",
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "id"
+				},
+				{
+					"typeStr": "1",
+					"name": "buttonText"
+				},
+				{
+					"typeStr": "1",
+					"name": "flavorText",
+					"display": null
+				},
+				{
+					"typeStr": "7",
+					"name": "itemImage",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "",
+					"buttonText": "",
+					"flavorText": "",
+					"itemImage": ""
+				}
+			],
+			"separators": [],
+			"props": {}
 		}
 	],
 	"customTypes": [],
