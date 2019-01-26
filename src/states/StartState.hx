@@ -14,12 +14,11 @@ class StartState extends BaseState
         var t = Tools.createTextStringXY(this, 'You\'re and astronaut from the lovely Blue Planet formally known as Earth. Your peace keeping mission on Mars was a success. However, thanks to a glitch in your autopilot you have been sucked into a vortex somewhere deep, deep into space.\n\rYour ship is damaged; the navigation equipment is dead and your ship\'s generator has stopped working. Reality hits you like a brick:\n\rSpace is infinite, dark, cold and reasonably quiet... and you are alone and far from home...\n\rAnd what\'s that noise coming from the lower deck of your ship?',0,0);
 		t.maxWidth = 300;
 		var iteration = 0;
-		var pic:Bitmap;
 		var pics:Array<Bitmap> = [];
 		for(i in Data.items.all)
 		{
 			var b = new Button(this,5 + iteration * 105, 200, 100, 30, new Bitmap(Res.button.toTile()), i.buttonText, pick, 18);
-            pic = new Bitmap(Reg.images[i.itemImage].toTile());
+			var pic:Bitmap = new Bitmap(Reg.images[i.itemImage].toTile());
        		pic.x = 140;
 			pics.push(pic);
 			b.overDelegate = function (){
@@ -34,7 +33,8 @@ class StartState extends BaseState
 			trace(i.buttonText);
 			iteration++;
 		}
-		/*new Button(this,140, 200, 50, 30, new Bitmap(Res.button.toTile()), "Boost 1", pick, 18);
+		/*
+		new Button(this,140, 200, 50, 30, new Bitmap(Res.button.toTile()), "Boost 1", pick, 18);
 		new Button(this,200, 200, 50, 30, new Bitmap(Res.button.toTile()), "Boost 2", pick, 18);
 		new Button(this,260, 200, 50, 30, new Bitmap(Res.button.toTile()), "Boost 3", pick, 18);
 		*/

@@ -38,9 +38,10 @@
 							"btnText": "Action 1",
 							"resultText": "result!",
 							"flavorText": "Flavor!",
-							"depressionEffect": 1,
+							"depressionEffect": 99,
 							"anxietyEffect": 2,
-							"exhaustionEffect": 2
+							"exhaustionEffect": 2,
+							"exitBtnText": "Start your next mission"
 						}
 					],
 					"title": "Planet 9"
@@ -181,6 +182,10 @@
 					"typeStr": "1",
 					"name": "resultText",
 					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "exitBtnText"
 				},
 				{
 					"typeStr": "1",

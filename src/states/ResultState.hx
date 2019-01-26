@@ -18,11 +18,24 @@ class ResultState extends BaseState
 				for(j in i.actions)
 				{
 					if(j.id == Reg.curActionID)
+					{
 		        		Tools.createTextStringXY(this, j.resultText,0,0);
+						Reg.anxiety += j.anxietyEffect;
+						Reg.depression += j.depressionEffect;
+						Reg.exhaustion += j.exhaustionEffect;
+						if(Reg.anxiety < 100 && Reg.depression < 100 && Reg.exhaustion < 100)
+						{
+							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), j.exitBtnText, pick, 18);
+						}
+						else 
+						{
+							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), "The End", restart, 18);
+						}
+						break;
+					}
 				}
 			}
 		}
-		new Button(this,140, 200, 160, 30, new Bitmap(Res.button.toTile()), "Start your next mission", pick, 18);
         var pic = new Bitmap(Res.goblin1.toTile(),this);
         pic.x = 140;
 	}
@@ -35,6 +48,11 @@ class ResultState extends BaseState
     function pick(e:hxd.Event)
     {
         Main.the.changeState(new PickState());
+    }
+
+    function restart(e:hxd.Event)
+    {
+        Main.the.changeState(new MenuState());
     }
 
 }
