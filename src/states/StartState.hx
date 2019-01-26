@@ -17,7 +17,7 @@ class StartState extends BaseState
 		var pics:Array<Bitmap> = [];
 		for(i in Data.items.all)
 		{
-			var b = new Button(this,5 + iteration * 105, 200, 100, 30, new Bitmap(Res.button.toTile()), i.buttonText, pick, 18);
+			var b = new Button(this,5 + iteration * 105, 200, 100, 30, new Bitmap(Res.button.toTile()), i.buttonText, function(_){pick(i.id);}, 18);
 			var pic:Bitmap = new Bitmap(Reg.images[i.itemImage].toTile());
        		pic.x = 140;
 			pics.push(pic);
@@ -46,8 +46,14 @@ class StartState extends BaseState
 		super.update(dt);
 	}
 
-    function pick(e:hxd.Event)
+    function pick(s:String)
     {
+		switch(s)
+		{
+			case 'item1': Reg.anxietyMod = .7;
+			case 'item2': Reg.depressionMod = .7;
+			case 'item3': Reg.exhaustionMod = .7;
+		}
         Main.the.changeState(new PickState());
     }
 

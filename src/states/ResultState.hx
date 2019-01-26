@@ -20,9 +20,11 @@ class ResultState extends BaseState
 					if(j.id == Reg.curActionID)
 					{
 		        		Tools.createTextStringXY(this, j.resultText,0,0);
-						Reg.anxiety += j.anxietyEffect;
-						Reg.depression += j.depressionEffect;
-						Reg.exhaustion += j.exhaustionEffect;
+						
+						Reg.anxiety += Std.int(j.anxietyEffect * Reg.anxietyMod);
+						Reg.depression += Std.int(j.depressionEffect * Reg.depressionMod);
+						Reg.exhaustion += Std.int(j.exhaustionEffect * Reg.exhaustionMod);
+
 						if(Reg.anxiety < 100 && Reg.depression < 100 && Reg.exhaustion < 100)
 						{
 							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), j.exitBtnText, pick, 18);
@@ -44,8 +46,6 @@ class ResultState extends BaseState
 				}
 			}
 		}
-        var pic = new Bitmap(Res.goblin1.toTile(),this);
-        pic.x = 140;
 	}
 
 	public override function update(dt:Float)
