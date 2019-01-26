@@ -14,6 +14,11 @@
 				},
 				{
 					"typeStr": "1",
+					"name": "missionText",
+					"display": null
+				},
+				{
+					"typeStr": "1",
 					"name": "resultText",
 					"display": null
 				},
@@ -35,28 +40,58 @@
 			],
 			"lines": [
 				{
-					"btnText": "mission 1",
+					"btnText": "What's That Noise?",
 					"resultText": "this is your results",
 					"id": "mission1",
 					"depressionEffect": 0,
 					"anxietyEffect": 0,
-					"exhaustionEffect": 0
+					"exhaustionEffect": 0,
+					"missionText": ""
 				},
 				{
-					"btnText": "mission 2",
+					"btnText": "Planet 9",
 					"resultText": "this is your bad results",
 					"id": "mission2",
 					"depressionEffect": 0,
 					"anxietyEffect": 0,
-					"exhaustionEffect": 0
+					"exhaustionEffect": 0,
+					"missionText": ""
 				},
 				{
-					"btnText": "mission 3",
-					"resultText": "this is your great results",
 					"id": "mission3",
+					"btnText": "The Cave",
+					"resultText": "",
 					"depressionEffect": 0,
 					"anxietyEffect": 0,
-					"exhaustionEffect": 0
+					"exhaustionEffect": 0,
+					"missionText": ""
+				},
+				{
+					"btnText": "Back to the Ship",
+					"resultText": "this is your great results",
+					"id": "mission4",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0,
+					"missionText": ""
+				},
+				{
+					"id": "mission5",
+					"btnText": "Astroids",
+					"resultText": "",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0,
+					"missionText": ""
+				},
+				{
+					"id": "mission6",
+					"btnText": "Home?",
+					"resultText": "",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0,
+					"missionText": ""
 				}
 			],
 			"separators": [],
@@ -79,6 +114,10 @@
 					"display": null
 				},
 				{
+					"typeStr": "1",
+					"name": "flavorTitle"
+				},
+				{
 					"typeStr": "7",
 					"name": "itemImage",
 					"display": null
@@ -86,10 +125,25 @@
 			],
 			"lines": [
 				{
-					"id": "",
-					"buttonText": "",
-					"flavorText": "",
-					"itemImage": ""
+					"id": "item1",
+					"buttonText": "Badge",
+					"flavorText": "Your father was best damn sheriff your hometown ever had, a real \"Man of Steel\". Holding this old piece of junk gives you more confidence than you have ever had before.",
+					"itemImage": "2e9b0adcba28c8f8cd8d8e2eb9327fdd",
+					"flavorTitle": "Badge (+Anxiety)"
+				},
+				{
+					"id": "item2",
+					"buttonText": "Photograph",
+					"flavorText": "Looking at this faded photograph reminds you of what you need to come back to and gives you hope for the future. ",
+					"itemImage": "bcac1b067c7fd74ec90921cd571403c9",
+					"flavorTitle": "Photograph (+Depression)"
+				},
+				{
+					"id": "item3",
+					"buttonText": "Rosary",
+					"flavorText": "Allow God's strength to flow through you as you feel each bead run through your fingertips. The Romans have been doing it for centuries, so it must be better than counting sheep. ",
+					"itemImage": "a8a3337d97932dddeda3212ce1514c28",
+					"flavorTitle": "Rosary (+Exhaustion)"
 				}
 			],
 			"separators": [],
