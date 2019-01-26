@@ -9,7 +9,7 @@
 				},
 				{
 					"typeStr": "1",
-					"name": "btnText"
+					"name": "title"
 				},
 				{
 					"typeStr": "1",
@@ -17,80 +17,57 @@
 					"display": null
 				},
 				{
-					"typeStr": "1",
-					"name": "resultText",
-					"display": null
-				},
-				{
-					"typeStr": "3",
-					"name": "depressionEffect",
-					"display": null
-				},
-				{
-					"typeStr": "3",
-					"name": "anxietyEffect",
-					"display": null
-				},
-				{
-					"typeStr": "3",
-					"name": "exhaustionEffect",
+					"typeStr": "8",
+					"name": "actions",
 					"display": null
 				}
 			],
 			"lines": [
 				{
-					"btnText": "What's That Noise?",
-					"resultText": "this is your results",
 					"id": "mission1",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": "Stepping over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of something like a small feet scratching the floor of the crowded cargo bay, then a sharp snap. A box falls in front of you and you clench the trinket in your pocket, all that you have of your home planet in an attempt to regain your composure."
+					"missionText": "",
+					"actions": [],
+					"title": "What's That Noise?"
 				},
 				{
 					"id": "mission2",
-					"btnText": "Coming in For a Landing",
-					"resultText": "",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": ""
+					"missionText": "\"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which is an adequate description of what you feel looking up into Planet 9's foreign  sky.   Strange blue lightening shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could perhaps recharge your ship.",
+					"actions": [
+						{
+							"id": "action1",
+							"btnText": "Action 1",
+							"resultText": "result!",
+							"flavorText": "Flavor!",
+							"depressionEffect": 1,
+							"anxietyEffect": 2,
+							"exhaustionEffect": 2
+						}
+					],
+					"title": "Planet 9"
 				},
 				{
-					"btnText": "Planet 9",
-					"resultText": "this is your bad results",
 					"id": "mission3",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": "\"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which is an adequate description of what you feel looking up into Planet 9's foreign  sky.   Strange blue lightening shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could perhaps recharge your ship."
+					"missionText": "",
+					"actions": [],
+					"title": "The Cave"
 				},
 				{
-					"btnText": "Back on The Ship",
-					"resultText": "this is your great results",
 					"id": "mission4",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": ""
+					"missionText": "",
+					"actions": [],
+					"title": "Back to the Ship"
 				},
 				{
 					"id": "mission5",
-					"btnText": "Astroids",
-					"resultText": "",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": ""
+					"missionText": "",
+					"actions": [],
+					"title": "Astroids"
 				},
 				{
 					"id": "mission6",
-					"btnText": "Home?",
-					"resultText": "",
-					"depressionEffect": 0,
-					"anxietyEffect": 0,
-					"exhaustionEffect": 0,
-					"missionText": ""
+					"missionText": "",
+					"actions": [],
+					"title": "Home?"
 				}
 			],
 			"separators": [],
@@ -182,6 +159,50 @@
 			],
 			"separators": [],
 			"props": {}
+		},
+		{
+			"name": "Missions@actions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "btnText"
+				},
+				{
+					"typeStr": "1",
+					"name": "resultText",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "flavorText",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "depressionEffect",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "anxietyEffect",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "exhaustionEffect",
+					"display": null
+				}
+			]
 		}
 	],
 	"customTypes": [],
