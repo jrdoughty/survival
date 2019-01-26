@@ -5,6 +5,9 @@ class Reg
 	public static var depression:Int = 0;
 	public static var anxiety:Int = 0;
 	public static var exhaustion:Int = 0;
+	public static var depressionMod:Float = 1;
+	public static var anxietyMod:Float = 1;
+	public static var exhaustionMod:Float = 1;
 	//Format for Int colors is AARRGGBB
 	public static var buttonColor:Int = 0xFFCCCCCC;
 	public static var buttonHoverColor:Int = 0xFFEEEEEE;
@@ -27,6 +30,9 @@ class Reg
 		depression = 0;
 		anxiety = 0;
 		exhaustion = 0;
+		depressionMod = 1;
+		anxietyMod = 1;
+		exhaustionMod = 1;
 		curMissionID = "";
 		curActionID = "";
 	}
