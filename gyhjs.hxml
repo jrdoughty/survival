@@ -1,0 +1,11 @@
+-lib heaps
+-lib hxbit
+-lib nape
+-lib castle
+-D resourcesPath=assets
+-js bin/html5/gyh.js
+-main Main
+-cp ../..
+-cp .
+-cp src
+-debug

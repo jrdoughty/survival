@@ -1,0 +1,68 @@
+{
+	"sheets": [
+		{
+			"name": "Missions",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "btnText"
+				},
+				{
+					"typeStr": "1",
+					"name": "resultText",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "depressionEffect",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "anxietyEffect",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "exhaustionEffect",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"btnText": "mission 1",
+					"resultText": "this is your results",
+					"id": "mission1",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0
+				},
+				{
+					"btnText": "mission 2",
+					"resultText": "this is your bad results",
+					"id": "mission2",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0
+				},
+				{
+					"btnText": "mission 3",
+					"resultText": "this is your great results",
+					"id": "mission3",
+					"depressionEffect": 0,
+					"anxietyEffect": 0,
+					"exhaustionEffect": 0
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}

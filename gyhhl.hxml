@@ -1,0 +1,12 @@
+-lib heaps
+-lib hlsdl
+-lib hxbit
+-lib nape
+-lib castle
+-D resourcesPath=assets
+-hl bin/hl/gyh.hl
+-main Main
+-D windowSize=1024x768
+-cp ../..
+-cp .
+-cp src
