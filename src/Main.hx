@@ -26,7 +26,7 @@ class Main extends hxd.App
 		Reg.reset();
 		Data.load(Res.data.entry.getText());
 		Reg.images = Reg.loadImagesFromImg('data.img');
-		engine.backgroundColor = 0x202020;
+		engine.backgroundColor = Reg.backgroundColor;
 		activeState = new MenuState(s2d);
         activeState.init();
 		//engine.fullScreen = true;

@@ -5,6 +5,12 @@ class Reg
 	public static var depression:Int = 0;
 	public static var anxiety:Int = 0;
 	public static var exhaustion:Int = 0;
+	//Format for Int colors is AARRGGBB
+	public static var buttonColor:Int = 0xFFCCCCCC;
+	public static var buttonHoverColor:Int = 0xFFEEEEEE;
+	public static var textColor:Int = 0xFFFF00FF;
+	public static var buttonTextColor:Int = 0xFFFFFFFF;
+	public static var backgroundColor:Int = 0x202020;
 	
 	public static var curMissionID:String = "";
 

@@ -9,6 +9,7 @@ import h2d.Font;
 import hxd.Event;
 import hxd.Res;
 import hxd.res.DefaultFont;
+import systems.Data;
 
 class Button extends h2d.Object
 {
@@ -26,6 +27,7 @@ class Button extends h2d.Object
 		this.x = x;
 		this.y = y;
 		background = backgroundTile;
+		background.color.setColor(Reg.buttonColor);
 		background.scaleX = width/background.getBounds().width;
 		background.scaleY = height/background.getBounds().height;
 		addChild(background);
@@ -33,6 +35,7 @@ class Button extends h2d.Object
 		text.text = textString;
 		text.x = 0;
 		text.y = 0;
+		text.color.setColor(Reg.buttonTextColor);
 		interactive = new Interactive(width, height, this);
 		interactive.onClick = click;
 		interactive.onOver = over;
@@ -61,14 +64,15 @@ class Button extends h2d.Object
 
 	public function over(e:Event)
 	{
-		background.color.set(1.2,1.2,1.2);
+		background.color.setColor(Reg.buttonHoverColor);
 		if(overDelegate != null)
 			overDelegate();
 	}
 
 	public function out(e:Event)
 	{
-		background.color.set(1,1,1);
+		trace(Data.config.all[0].buttonHover);
+		background.color.setColor(Reg.buttonColor);
 	}
 	/*
 	public function update():Void 
