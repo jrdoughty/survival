@@ -54,7 +54,7 @@
 					"depressionEffect": 0,
 					"anxietyEffect": 0,
 					"exhaustionEffect": 0,
-					"missionText": "\"9\" sounds similar to the Japanese word for \"agony\" or \"torture\", which is an adequate description of what you feel standing on it. The planet is covered in an electronic current which, every so often, snaps around you. This could be a great place to recharge your ship."
+					"missionText": "\"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which is an adequate description of what you feel looking up into Planet 9's foreign  sky.   Strange blue lightening shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could perhaps recharge your ship."
 				},
 				{
 					"id": "mission3",
@@ -175,7 +175,7 @@
 			"lines": [
 				{
 					"buttonColor": 13421772,
-					"backgroundColor": 2105376,
+					"backgroundColor": 8419183,
 					"fontColor": 16777215,
 					"buttonHover": 16777215
 				}
