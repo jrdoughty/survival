@@ -13,6 +13,7 @@ class Reg
 	public static var backgroundColor:Int = 0x202020;
 	
 	public static var curMissionID:String = "";
+	public static var curActionID:String = "";
 
 	
 	public static var gameWidth = 320; // Width of the game in pixels (might be less / more in actual pixels depending on your zoom).

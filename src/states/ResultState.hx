@@ -15,7 +15,11 @@ class ResultState extends BaseState
 		{
 			if(i.id == Reg.curMissionID)
 			{
-	        	Tools.createTextStringXY(this, i.resultText,0,0);
+				for(j in i.actions)
+				{
+					if(j.id == Reg.curActionID)
+		        		Tools.createTextStringXY(this, j.resultText,0,0);
+				}
 			}
 		}
 		new Button(this,140, 200, 160, 30, new Bitmap(Res.button.toTile()), "Start your next mission", pick, 18);
