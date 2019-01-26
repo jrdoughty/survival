@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Grow Your Hoard</title>
+	<meta name="description" content="" />
+</head>
+<body>
+	<canvas style='width:100% ;height:100%;' width="100%" height="100%" id="webgl"></canvas>
+	<script type = "text/javascript" src="gyh.js"></script>
+</body>
+</html>
+4:44 PM
 {
 	"sheets": [
 		{
@@ -6,6 +19,11 @@
 				{
 					"typeStr": "1",
 					"name": "id"
+				},
+				{
+					"typeStr": "7",
+					"name": "missionImage",
+					"display": null
 				},
 				{
 					"typeStr": "1",
@@ -25,71 +43,56 @@
 			"lines": [
 				{
 					"id": "mission1",
-					"missionText": "Stepping over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of something like a small feet scratching the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missing your head and you clench the trinket in your pocket, all that you have of your home planet in an attempt to regain your composure.",
-					"actions": [
-						{
-							"id": "",
-							"btnText": "Action1",
-							"resultText": "A Martian droid is cutting wires and trying to break into your ship's mainframe. You throw robot against the wall, crushing it. You dash back upstairs as the ship suddenly starts to descend. Your equipment is blinking as you descend toward an unknown planet. Thankfully, your steering is intact and you avoid crash landing. As you gather your bearings you notice the damaged Martian droid slither out the cargo door.",
-							"flavorText": "Check it out; sounds like something doesn't belong down here.",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
-							"exhaustionEffect": 0
-						},
-						{
-							"id": "",
-							"btnText": "Action2",
-							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel your ship begin to descend. Your equipment flashes, a strange planet dead ahead. The steering is out, you have no control. The ship crashes in a deserted wasteland, damaging the outside of your ship. As you gather your bearings you notice a damaged Martian droid slither out the cargo door.",
-							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
-							"exhaustionEffect": 0
-						}
-					],
-					"title": "What's That Noise?"
+					"missionText": "",
+					"actions": [],
+					"title": "What's That Noise?",
+					"missionImage": ""
 				},
 				{
 					"id": "mission2",
-					"missionText": " Considering your surroundings it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which was adequate to what you felt looking up into Planet 9's foreign sky.   Strange blue lightening shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could recharge the ship...",
+					"missionText": "\"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which is an adequate description of what you feel looking up into Planet 9's foreign  sky.   Strange blue lightening shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could perhaps recharge your ship.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Action 1",
-							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from your tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumping down and running back safely into the ship. Not long after  lightening strikes- and misses. ",
-							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
-							"depressionEffect": 1,
+							"resultText": "result!",
+							"flavorText": "Flavor!",
+							"depressionEffect": 99,
 							"anxietyEffect": 2,
-							"exhaustionEffect": 2
-						},
-						{
-							"id": "",
-							"btnText": "Action 2",
-							"resultText": "The droid didn't make it far. Upon catching up with it you find that it not only has a powerful battery that can jump your ship but a piece of the ship's navigation system.",
-							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
-							"exhaustionEffect": 0
+							"exhaustionEffect": 2,
+							"exitBtnText": "Start your next mission"
 						}
 					],
-					"title": "Planet 9"
+					"title": "Planet 9",
+					"missionImage": ""
 				},
 				{
 					"id": "mission3",
 					"missionText": "",
 					"actions": [],
-					"title": "Back to the Ship"
+					"title": "The Cave",
+					"missionImage": ""
 				},
 				{
 					"id": "mission4",
 					"missionText": "",
 					"actions": [],
-					"title": "Astroids"
+					"title": "Back to the Ship",
+					"missionImage": ""
 				},
 				{
 					"id": "mission5",
 					"missionText": "",
 					"actions": [],
-					"title": "Home?"
+					"title": "Astroids",
+					"missionImage": ""
+				},
+				{
+					"id": "mission6",
+					"missionText": "",
+					"actions": [],
+					"title": "Home?",
+					"missionImage": ""
 				}
 			],
 			"separators": [],
@@ -203,6 +206,10 @@
 					"typeStr": "1",
 					"name": "resultText",
 					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "exitBtnText"
 				},
 				{
 					"typeStr": "1",
