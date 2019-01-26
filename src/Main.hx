@@ -23,7 +23,6 @@ class Main extends hxd.App
 	
 	override function init() 
 	{
-		Reg.reset();
 		Data.load(Res.data.entry.getText());
 		Reg.images = Reg.loadImagesFromImg('data.img');
 		engine.backgroundColor = Reg.backgroundColor;

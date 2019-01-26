@@ -11,10 +11,10 @@ class PickState extends BaseState
 	
 	public override function init()
 	{
-        var t = Tools.createTextStringXY(this, '',0,0);
+        var mission = Data.Missions.all[1];//Math.floor(Data.Missions.all.length*Math.random())];
+        var t = Tools.createTextStringXY(this, mission.missionText,0,0);
 		t.maxWidth = 320;
         var iteration = 0;
-        var mission = Data.Missions.all[1];//Math.floor(Data.Missions.all.length*Math.random())];
         for(i in mission.actions)
         {
             var b = new Button(this,5 + iteration * 105, 200, 100, 30, new Bitmap(Res.button.toTile()),i.btnText, function(_){pick(mission.id,i.id);}, 18);

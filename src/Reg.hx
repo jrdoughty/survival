@@ -27,6 +27,8 @@ class Reg
 		depression = 0;
 		anxiety = 0;
 		exhaustion = 0;
+		curMissionID = "";
+		curActionID = "";
 	}
 
     public static function loadImagesFromImg(fileName:String):Map<String, hxd.res.Image>
