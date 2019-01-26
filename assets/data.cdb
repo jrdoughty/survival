@@ -8,6 +8,11 @@
 					"name": "id"
 				},
 				{
+					"typeStr": "7",
+					"name": "missionImage",
+					"display": null
+				},
+				{
 					"typeStr": "1",
 					"name": "title"
 				},
@@ -27,7 +32,8 @@
 					"id": "mission1",
 					"missionText": "",
 					"actions": [],
-					"title": "What's That Noise?"
+					"title": "What's That Noise?",
+					"missionImage": ""
 				},
 				{
 					"id": "mission2",
@@ -44,31 +50,36 @@
 							"exitBtnText": "Start your next mission"
 						}
 					],
-					"title": "Planet 9"
+					"title": "Planet 9",
+					"missionImage": ""
 				},
 				{
 					"id": "mission3",
 					"missionText": "",
 					"actions": [],
-					"title": "The Cave"
+					"title": "The Cave",
+					"missionImage": ""
 				},
 				{
 					"id": "mission4",
 					"missionText": "",
 					"actions": [],
-					"title": "Back to the Ship"
+					"title": "Back to the Ship",
+					"missionImage": ""
 				},
 				{
 					"id": "mission5",
 					"missionText": "",
 					"actions": [],
-					"title": "Astroids"
+					"title": "Astroids",
+					"missionImage": ""
 				},
 				{
 					"id": "mission6",
 					"missionText": "",
 					"actions": [],
-					"title": "Home?"
+					"title": "Home?",
+					"missionImage": ""
 				}
 			],
 			"separators": [],

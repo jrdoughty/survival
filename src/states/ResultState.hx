@@ -27,9 +27,17 @@ class ResultState extends BaseState
 						{
 							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), j.exitBtnText, pick, 18);
 						}
+						else if(Reg.anxiety < 100)
+						{
+							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), "Nerves have taken hold, and illness sets in...", restart, 18);
+						}
+						else if(Reg.depression < 100)
+						{
+							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), "Lonelyness kills a man... and it just did", restart, 18);
+						}
 						else 
 						{
-							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), "The End", restart, 18);
+							new Button(this,5, 200, 310, 30, new Bitmap(Res.button.toTile()), "Pushing yourself only gets you so far before you just can't", restart, 18);
 						}
 						break;
 					}
