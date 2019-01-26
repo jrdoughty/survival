@@ -1,6 +1,5 @@
 -lib heaps
 -lib hxbit
--lib nape
 -lib castle
 -D resourcesPath=assets
 -js bin/html5/gyh.js
