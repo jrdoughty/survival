@@ -24,7 +24,7 @@ class StartState extends BaseState
 		var iteration = 0;
 		var pics:Array<Bitmap> = [];
 		
-		var b = new Button(this, 10, 200, 300, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Don't go alone\n\rChoose a Momento of Home", function(_){pick();}, 18);
+		var b = new Button(this, 10, 200, 300, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Don't go alone-\n\rChoose a Momento of Home!", function(_){pick();}, 18);
 
 	}
 
