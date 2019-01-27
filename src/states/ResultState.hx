@@ -33,8 +33,15 @@ class ResultState extends BaseState
 						bmp.x = 0;
 						bmp.alpha = .5;
 						Reg.anxiety += Std.int(j.anxietyEffect * Reg.anxietyMod);
+		        		t = Tools.createTextStringXY(this, "Anxiety: "+Reg.anxiety,5,165);
+						t.color.setColor(Reg.buttonTextColor);
 						Reg.depression += Std.int(j.depressionEffect * Reg.depressionMod);
+		        		t = Tools.createTextStringXY(this, "Depression: "+Reg.depression,105,165);
+						t.color.setColor(Reg.buttonTextColor);
 						Reg.exhaustion += Std.int(j.exhaustionEffect * Reg.exhaustionMod);
+		        		t = Tools.createTextStringXY(this, "Exhaustion: "+Reg.exhaustion,210,165);
+						t.color.setColor(Reg.buttonTextColor);
+						
 
 						if(Reg.anxiety < 100 && Reg.depression < 100 && Reg.exhaustion < 100)
 						{
