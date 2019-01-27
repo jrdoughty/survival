@@ -91,8 +91,8 @@
 						{
 							"id": "action1",
 							"btnText": "Use autopilot",
-							"resultText": "autopilot result",
-							"exitBtnText": "Just as the ship's computer accepts your command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
+							"resultText": "Just as the ship's computer accepts your command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
+							"exitBtnText": "",
 							"flavorText": "\"Computer- set course for home!\"",
 							"depressionEffect": 25,
 							"anxietyEffect": 50,
@@ -101,8 +101,8 @@
 						{
 							"id": "action2",
 							"btnText": "Take control",
-							"resultText": "control result",
-							"exitBtnText": "The navigation screen dies just as you memorize its map. You take a hold of the steering wheel and push forward... but what direction are you going? The stars and planets you were supposed to pass are not there. What's goin' on?",
+							"resultText": "The navigation screen dies just as you memorize its map. You take a hold of the steering wheel and push forward... but what direction are you going? The stars and planets you were supposed to pass are not there. What's goin' on?",
+							"exitBtnText": "",
 							"flavorText": "Memorize the map and take control! The ship failed before and you ended up in a vortex.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
