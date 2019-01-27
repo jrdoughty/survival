@@ -118,9 +118,9 @@
 					"actions": [
 						{
 							"id": "",
-							"btnText": "",
+							"btnText": "Stay the course!",
 							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. You can't help but wonder, \"Is this my new home?\".",
-							"exitBtnText": "Stay the course!",
+							"exitBtnText": "",
 							"flavorText": "Stay the course! No astriod's goin' to get the best of me.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
@@ -128,9 +128,9 @@
 						},
 						{
 							"id": "",
-							"btnText": "",
+							"btnText": "Dive into the Black Hole",
 							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Your head is swimmin', your heart is pounding, and there is nothin' but darkness outside your window.",
-							"exitBtnText": "Dive into the Black Hole",
+							"exitBtnText": "",
 							"flavorText": "What do I have to lose?",
 							"depressionEffect": 50,
 							"anxietyEffect": 0,
