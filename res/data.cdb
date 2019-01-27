@@ -37,7 +37,7 @@
 							"btnText": "Check it out",
 							"resultText": "A Martian droid is cuttin' wires and tryin' to break into yer ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Yer equipment is blinkin' as you descend toward an unknown planet. Thankfully, yer steerin' is intact and you avoid crash landin'. As you gather yer bearin's you notice the damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
-							"flavorText": "Sounds like somethin' doesn't belong down here",
+							"flavorText": "Sounds like somethin' doesn't belong down there.",
 							"depressionEffect": 0,
 							"anxietyEffect": 50,
 							"exhaustionEffect": 25

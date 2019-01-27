@@ -18,7 +18,7 @@ class StartState extends BaseState
         bmp.y = 0;
         bmp.x = 0;
         bmp.alpha = .5;
-        var t = Tools.createTextStringXY(this, 'Your peace keepin\' mission on a frontier world was a success. However, thanks to a glitch in your tin can\'s autopilot you\'ve been sucked into a swirl of darkness into deep space.\n\rYour vessel is damaged; the navigation equipment is nothin\' but a hunk of scrap and your ship\'s generator has stopped workin\'.\n\rYou\'re alone among the stars in the dark, cold, and quiet... and you are far from home...\n\r\n\rWhat\'s that noise comin\' from the lower deck of your ship?',5,0);
+        var t = Tools.createTextStringXY(this, 'Your peace keepin\' mission on a frontier world was a success. However, thanks to a glitch in your tin can\'s autopilot you\'ve been sucked into a swirl of darkness into deep space.\n\rYour vessel is damaged; the navigation equipment is nothin\' but a hunk of scrap and your ship\'s generator has stopped workin\'.\n\rYou\'re alone among the stars in the dark, cold, and quiet... and you are far from home...\n\r\n\rWhat\'s that noise comin\' from the cargo bay?',5,0);
 		t.maxWidth = 300;
 		t.color.setColor(Reg.buttonTextColor);
 		var iteration = 0;
