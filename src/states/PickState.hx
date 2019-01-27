@@ -1,5 +1,6 @@
 package states;
 
+import h2d.Text.Align;
 import util.Button;
 import h2d.Bitmap;
 import hxd.Res;
@@ -12,15 +13,32 @@ class PickState extends BaseState
 	public override function init()
 	{
         var mission = Data.Missions.all[Reg.missionIndex];//Math.floor(Data.Missions.all.length*Math.random())];
-        var t = Tools.createTextStringXY(this, mission.missionText,0,0);
-		t.maxWidth = 320;
-        t = Tools.createTextStringXY(this, '',0,160);
-        var iteration = 0;
-        for(i in mission.actions)
+        if(mission.missionImage != null && mission.missionImage != "")
         {
-            var b = new Button(this,5 + iteration * 155, 200, 150, 30, new Bitmap(Res.button.toTile()),i.btnText, function(_){pick(mission.id,i.id);}, 18);
-            b.overDelegate = function (){t.text = i.flavorText;}
-            iteration++;
+            new Bitmap(Reg.images[mission.missionImage].toTile(),this);
+        }
+        var t = Tools.createTextStringXY(this, mission.title,0,0);
+		t.maxWidth = 320;
+        t.textAlign = Align.Center;
+
+        t = Tools.createTextStringXY(this, mission.missionText,5,18);
+		t.maxWidth = 300;
+        
+        t = Tools.createTextStringXY(this, '',5,160);
+        t.maxWidth = 300;
+        var iteration = 0;
+        if(mission.actions.length != 0)
+        {
+            for(i in mission.actions)
+            {
+                var b = new Button(this,5 + iteration * 155, 200, 150, 30, new Bitmap(Res.button.toTile()),i.btnText, function(_){pick(mission.id,i.id);}, 18);
+                b.overDelegate = function (){t.text = i.flavorText;}
+                iteration++;
+            }
+        }
+        else 
+        {
+            Main.the.changeState(new MenuState());
         }
 	}
 

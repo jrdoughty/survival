@@ -35,6 +35,8 @@ class Button extends h2d.Object
 		text.text = textString;
 		text.x = 0;
 		text.y = 0;
+		text.maxWidth = width;
+		text.textAlign = Align.Center;
 		text.color.setColor(Reg.buttonTextColor);
 		interactive = new Interactive(width, height, this);
 		interactive.onClick = click;
