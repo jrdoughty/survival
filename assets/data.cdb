@@ -53,7 +53,7 @@
 							"exhaustionEffect": 0
 						}
 					],
-					"title": "What's That Noise?",
+					"title": "WHAT'S THAT NOISE?",
 					"missionImage": "6b5936fe7d5a2b7e843eff3f1ceb1495"
 				},
 				{
@@ -81,8 +81,8 @@
 							"exhaustionEffect": 0
 						}
 					],
-					"title": "Planet 9",
-					"missionImage": ""
+					"title": "PLANET 9",
+					"missionImage": "93b6ded80e6ede69f91a56d461c2e27f"
 				},
 				{
 					"id": "mission3",
@@ -109,22 +109,22 @@
 							"exhaustionEffect": 0
 						}
 					],
-					"title": "Back to the Ship",
-					"missionImage": ""
+					"title": "BACK TO THE SHIP",
+					"missionImage": "d8e41d4fc4b79bf8415be3f106b817c1"
 				},
 				{
 					"id": "mission4",
 					"missionText": "",
 					"actions": [],
-					"title": "Astroids",
-					"missionImage": ""
+					"title": "ASTRIODS",
+					"missionImage": "ae1b879fbe1a8240ddf4e22d3069fd49"
 				},
 				{
 					"id": "mission5",
 					"missionText": "",
 					"actions": [],
-					"title": "Home?",
-					"missionImage": ""
+					"title": "HOME SWEET HOME?",
+					"missionImage": "49c1eaf609817e14cec19747c2a07567"
 				}
 			],
 			"separators": [],
