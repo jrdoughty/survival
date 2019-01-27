@@ -23,7 +23,7 @@ class CreditsState extends BaseState
 		var t = Tools.createTextStringXY(this, 'Elizabeth "Izy" Doughty: Art and Writing',0, 120);
 		t.maxWidth = 320;
 		t.textAlign = Align.Center;
-		t = Tools.createTextStringXY(this, "John Doughty: Code and Audio", 0, 135);
+		t = Tools.createTextStringXY(this, "John Doughty: Code and Editing", 0, 135);
 		t.maxWidth = 320;
 		t.textAlign = Align.Center;
 		//if(Reg.missionIndex >5)
