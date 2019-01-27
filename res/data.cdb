@@ -30,12 +30,12 @@
 			"lines": [
 				{
 					"id": "mission1",
-					"missionText": "Steppin' over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of somethin' like a small feet scratchin' the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missin' your head and you clench the trinket in your pocket, all that you have of your home planet in an attempt to regain your composure.",
+					"missionText": "Steppin' over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of somethin' like a small feet scratchin' the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missin' yer head and you clench the trinket in yer pocket, all that you have of yer home planet in an attempt to regain yer composure.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Check it out",
-							"resultText": "A Martian droid is cuttin' wires and tryin' to break into your ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Your equipment is blinkin' as you descend toward an unknown planet. Thankfully, your steerin' is intact and you avoid crash landin'. As you gather your bearin's you notice the damaged Martian droid slither out the cargo door.",
+							"resultText": "A Martian droid is cuttin' wires and tryin' to break into yer ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Yer equipment is blinkin' as you descend toward an unknown planet. Thankfully, yer steerin' is intact and you avoid crash landin'. As you gather yer bearin's you notice the damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
 							"flavorText": "Sounds like somethin' doesn't belong down here",
 							"depressionEffect": 0,
@@ -45,7 +45,7 @@
 						{
 							"id": "action2",
 							"btnText": "Don't mess with it",
-							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel your ship begin to descend. Your equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of your ship. As you gather your bearin's you notice a damaged Martian droid slither out the cargo door.",
+							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel yer ship begin to descend. Yer equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of yer ship. As you gather yer bearin's you notice a damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
 							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
 							"depressionEffect": 50,
@@ -58,12 +58,12 @@
 				},
 				{
 					"id": "mission2",
-					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Your Peace mission was a failure, but they failed to kill you. That had to count for somethin'.Considerin' your surroundin's it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"sufferin'\" or \"agony\", which was adequate to what you felt lookin' up into Planet 9's foreign sky. ",
+					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Yer Peace mission was a failure, but they failed to kill you. That had to count for somethin'.Considerin' yer surroundin's it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"sufferin'\" or \"agony\", which was adequate to what you felt lookin' up into Planet 9's foreign sky. ",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "It's just electricity",
-							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from your tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
+							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from yer tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
 							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
@@ -73,7 +73,7 @@
 						{
 							"id": "",
 							"btnText": "I ain't touchin' nothin'",
-							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump your ship but a piece of the ship's navigation system.",
+							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump yer ship but a piece of the ship's navigation system.",
 							"exitBtnText": "",
 							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
 							"depressionEffect": 25,
@@ -86,12 +86,12 @@
 				},
 				{
 					"id": "mission3",
-					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgivin' depths of space. Be brave, keep it together. You can't let it end here. You clutch your trinket and take in a deep breath. Suddenly, you hear a loud BEEP. You look over and find that your navigation system has joined your struggle- it's no longer offline but it's not workin' well, either. You see Earth's location.",
+					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgivin' depths of space. Be brave, keep it together. You can't let it end here. You clutch yer trinket and take in a deep breath. Suddenly, you hear a loud BEEP. You look over and find that yer navigation system has joined yer struggle- it's no longer offline but it's not workin' well, either. You see Earth's location.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Use autopilot",
-							"resultText": "Just as the ship's computer accepts your command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
+							"resultText": "Just as the ship's computer accepts yer command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
 							"exitBtnText": "",
 							"flavorText": "\"Computer- set course for home!\"",
 							"depressionEffect": 25,
@@ -114,7 +114,7 @@
 				},
 				{
 					"id": "mission4",
-					"missionText": "If you thought Space was done with you- well, bless your little heart. Outside your window now are astriods coming in HOT! You steer to the left, to the right, up, down over and out- only to miss them by mere inches. Out of the corner of your eye you see a dark void, almost like the one you fell through what feels like years ago.",
+					"missionText": "If you thought Space was done with you- well, bless yer little heart. Outside yer window now are astriods coming in HOT! You steer to the left, to the right, up, down over and out- only to miss them by mere inches. Out of the corner of yer eye you see a dark void, almost like the one you fell through what feels like years ago.",
 					"actions": [
 						{
 							"id": "",
@@ -129,7 +129,7 @@
 						{
 							"id": "",
 							"btnText": "Dive into the Black Hole",
-							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Your head is swimmin', your heart is pounding, and there is nothin' but darkness outside your window.",
+							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
 							"exitBtnText": "",
 							"flavorText": "What do I have to lose?",
 							"depressionEffect": 50,
@@ -181,7 +181,7 @@
 				{
 					"id": "item1",
 					"buttonText": "Badge",
-					"flavorText": "Your father was best damn sheriff your hometown ever had, a real \"Man of Steel\". Holdin' this old piece of junk gives you more confidence than you have ever had before.",
+					"flavorText": "Yer father was best damn sheriff yer hometown ever had, a real \"Man of Steel\". Holdin' this old piece of junk gives you more confidence than you have ever had before.",
 					"itemImage": "2e9b0adcba28c8f8cd8d8e2eb9327fdd",
 					"flavorTitle": "Badge (+Anxiety)"
 				},
@@ -195,7 +195,7 @@
 				{
 					"id": "item3",
 					"buttonText": "Rosary",
-					"flavorText": "Allow God's strength to flow through you as you feel each bead run through your fingertips. The Romans have been doin' it for centuries, so it must be better than countin' sheep. ",
+					"flavorText": "Preacher back home said it'd give you strength... feelin' each bead run through your fingertips. The Romans have been doin' it for centuries, so it must be better than countin' sheep. ",
 					"itemImage": "a8a3337d97932dddeda3212ce1514c28",
 					"flavorTitle": "Rosary (+Exhaustion)"
 				}
@@ -225,6 +225,28 @@
 					"typeStr": "11",
 					"name": "fontColor",
 					"display": null
+				},
+				{
+					"typeStr": "7",
+					"name": "logo"
+				},
+				{
+					"typeStr": "7",
+					"name": "menuBackground"
+				},
+				{
+					"typeStr": "7",
+					"name": "introBG",
+					"display": null
+				},
+				{
+					"typeStr": "7",
+					"name": "buttonBG",
+					"display": null
+				},
+				{
+					"typeStr": "7",
+					"name": "restBG"
 				}
 			],
 			"lines": [
@@ -232,7 +254,12 @@
 					"buttonColor": 13421772,
 					"backgroundColor": 8419183,
 					"fontColor": 16777215,
-					"buttonHover": 16777215
+					"buttonHover": 16777215,
+					"logo": "b8303d7b7442d6cb6445ab7f3bdce3e5",
+					"introBG": "7207c3ad12ff411053d5501a23a7515c",
+					"menuBackground": "7207c3ad12ff411053d5501a23a7515c",
+					"buttonBG": "2b906120524bccc138ca8a8386a4d55c",
+					"restBG": "9593b39b8812ecc0884cd00f7c9a46d9"
 				}
 			],
 			"separators": [],

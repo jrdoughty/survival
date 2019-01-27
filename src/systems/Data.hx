@@ -5,4 +5,6 @@ package systems;
 /**
  * Magic
  */
-private typedef Init = haxe.macro.MacroType < [cdb.Module.build("assets/data.cdb")] > ;
+
+private typedef Init = haxe.macro.MacroType < [cdb.Module.build("res/data.cdb")] > ;
+

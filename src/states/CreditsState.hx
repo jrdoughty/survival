@@ -6,6 +6,7 @@ import util.Button;
 import hxd.Res;
 import util.Button;
 import h2d.Bitmap;
+import systems.Data;
 /**
  * ...
  * @author John Doughty
@@ -28,7 +29,7 @@ class CreditsState extends BaseState
 		t.maxWidth = 320;
 		t.textAlign = Align.Center;
 		
-		new util.Button(this, 75, 180, 150, 50, new Bitmap(Res.button.toTile(), this), "Menu", menu, 27);
+		new util.Button(this, 75, 180, 150, 50, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile(), this), "Menu", menu, 27);
 	}
 
 	public function menu(e:hxd.Event)

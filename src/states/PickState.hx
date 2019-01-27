@@ -37,7 +37,7 @@ class PickState extends BaseState
         {
             for(i in mission.actions)
             {
-                var b = new Button(this,5 + iteration * 155, 200, 150, 30, new Bitmap(Res.button.toTile()),i.btnText, function(_){pick(mission.id,i.id);}, 18);
+                var b = new Button(this,5 + iteration * 155, 200, 150, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()),i.btnText, function(_){pick(mission.id,i.id);}, 18);
                 b.overDelegate = function (){t.text = i.flavorText;}
                 iteration++;
             }

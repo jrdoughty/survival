@@ -1,7 +1,7 @@
 -lib heaps
 -lib hxbit
 -lib castle
--D resourcesPath=assets
+-D resourcesPath=res
 -js bin/html5/gyh.js
 -main Main
 -cp ../..

@@ -5,6 +5,7 @@ import h2d.Text;
 import h2d.Bitmap;
 import util.Button;
 import hxd.res.DefaultFont;
+import systems.Data;
 
 /**
  * A FlxState which can be used for the game's menu.
@@ -22,7 +23,7 @@ class HelpState extends BaseState
 		super.init();
 		var text:Text;
 		text = new Text(DefaultFont.get(), this);
-		text.text = "Help";
+		text.text = "RULES";
 		text.maxWidth = 320;
 		text.textAlign = Align.Center;
 
@@ -32,8 +33,8 @@ class HelpState extends BaseState
 		text.y = 50;
 		text.maxWidth = 320;
 		text.textAlign = Align.Center;
-		new Button(this,25, 200, 120, 30, new Bitmap(Res.button.toTile()), "PLAY", play);
-		new Button(this,160, 200, 120, 30, new Bitmap(Res.button.toTile()), "MENU", menu);
+		new Button(this,25, 200, 120, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "PLAY", play);
+		new Button(this,160, 200, 120, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "MENU", menu);
 	}
 
 	/**
