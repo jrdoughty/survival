@@ -182,21 +182,21 @@
 					"id": "item1",
 					"buttonText": "Badge",
 					"flavorText": "Yer father was best damn sheriff yer hometown ever had, a man of real 'grit'. Holdin' this old piece of metal steels your confidence.",
-					"itemImage": "b8009a1c01ff9a83d5df85bb13bedc60",
+					"itemImage": "f7d290cbd77c8d9361d12343bd82754f",
 					"flavorTitle": "Badge (+Anxiety)"
 				},
 				{
 					"id": "item2",
 					"buttonText": "Photograph",
 					"flavorText": "Nothin' like seein' a glimpse of home. Lookin' at this faded photograph reminds you of what you need to come back to and gives ya much needed hope. ",
-					"itemImage": "9c6a95976420d86fbb179fc27ddf8205",
+					"itemImage": "66fccf89c38df3b21bd50324771a1679",
 					"flavorTitle": "Photograph (+Depression)"
 				},
 				{
 					"id": "item3",
 					"buttonText": "Rosary",
 					"flavorText": "Preacher back home said it'd give you strength... feelin' each bead run through your fingertips. The Romans have been doin' it for centuries, so it must be better than countin' sheep. ",
-					"itemImage": "802c54cc5c7999026c69e1787d1731cb",
+					"itemImage": "a90d577c6c8179d5c8c13b191cfbbf8a",
 					"flavorTitle": "Rosary (+Exhaustion)"
 				}
 			],
@@ -255,7 +255,7 @@
 					"backgroundColor": 8419183,
 					"fontColor": 16777215,
 					"buttonHover": 16777215,
-					"logo": "d569b384d7a151ae4b82679a3d3313b4",
+					"logo": "317cd90a300849b024e8efab1ce6a519",
 					"introBG": "7207c3ad12ff411053d5501a23a7515c",
 					"menuBackground": "7207c3ad12ff411053d5501a23a7515c",
 					"buttonBG": "2b906120524bccc138ca8a8386a4d55c",
