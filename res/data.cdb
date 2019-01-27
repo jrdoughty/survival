@@ -58,7 +58,7 @@
 				},
 				{
 					"id": "mission2",
-					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Yer Peace mission was a failure, but they failed to kill you. That had to count for somethin'.Considerin' yer surroundin's it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"sufferin'\" or \"agony\", which was adequate to what you felt lookin' up into Planet 9's foreign sky. ",
+					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Yer mission was a failure, but they failed to kill you. That had to count for somethin'. Considerin' yer surroundin's it was safe to assume that you were on a planet commonly known as 9. Ya look up a flash of strange blue lightening as it shoots across the sky in silent thunder. A bolt strikes near your feet and the air snaps around you. An idea strikes you - these electrical storms could recharge the ship...",
 					"actions": [
 						{
 							"id": "action1",
