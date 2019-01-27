@@ -15,6 +15,8 @@ class Main extends hxd.App
     var activeState:BaseState;
 	public static var the:Main;
 
+	var music : hxd.snd.Channel;
+    
 	static function main() 
 	{
 		Res.initEmbed();
@@ -30,6 +32,13 @@ class Main extends hxd.App
         activeState.init();
 		//engine.fullScreen = true;
 		activeState.setScale(engine.width/Reg.gameWidth);
+		/*var res = if(hxd.res.Sound.supportedFormat(OggVorbis) ) Res.bg else null;
+		if( res != null ) {
+			trace("Playing "+res);
+			music = res.play(true);
+			//music.queueSound(...);
+			music.onEnd = function() trace("LOOP");
+		}*/
 	}
 	override function update(dt:Float) 
 	{

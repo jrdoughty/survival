@@ -13,7 +13,16 @@ class ResultState extends BaseState
 	public override function init()
 	{ 
         var mission = Data.Missions.all[Reg.missionIndex];
-        if(mission.missionImage != null && mission.missionImage != "")
+		Reg.missionIndex++;
+		if(Reg.missionIndex == 4)
+		{
+			for(i in mission.actions)
+			{
+				if(i.id == Reg.curActionID && i.id == 'space')	
+					Reg.missionIndex++;
+			}
+		}
+		if(mission.missionImage != null && mission.missionImage != "")
         {
             new Bitmap(Reg.images[mission.missionImage].toTile(),this);
         }
@@ -46,17 +55,17 @@ class ResultState extends BaseState
 				{
 					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), j.exitBtnText, pick, 18);
 				}
-				else if(Reg.anxiety < 100)
+				else if(Reg.anxiety >= 100)
 				{
 					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Nerves have taken hold, and illness sets in...", restart, 18);
 				}
-				else if(Reg.depression < 100)
+				else if(Reg.depression >= 100)
 				{
-					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Lonelyness kills a man... and it just did", restart, 18);
+					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Lonelyness kills a man... and it just got you", restart, 18);
 				}
 				else 
 				{
-					new Button(this,5, 200, 310, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Pushing yourself only gets you so far before you just can't", restart, 18);
+					new Button(this,5, 200, 310, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "Pushing yourself only gets you so far before you just can't. You collapse...", restart, 18);
 				}
 				break;
 			}
@@ -70,8 +79,16 @@ class ResultState extends BaseState
 
     function pick(e:hxd.Event)
     {
-		Reg.missionIndex++;
-        Main.the.changeState(new RestState());
+		if(Reg.missionIndex<4)
+	        Main.the.changeState(new RestState());
+		else if(Reg.missionIndex == 4 || Reg.missionIndex == 5)
+		{
+	        Main.the.changeState(new PickState());
+		}
+		else if(Reg.missionIndex > 5)
+		{
+	        Main.the.changeState(new CreditsState());
+		}
     }
 
     function restart(e:hxd.Event)
