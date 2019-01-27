@@ -63,7 +63,7 @@
 						{
 							"id": "action1",
 							"btnText": "It's just electricity",
-							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from yer tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
+							"resultText": "You go back to the cargo bay to grab an iron rod and roll of duct tape from yer tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
 							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
