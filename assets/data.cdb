@@ -30,14 +30,14 @@
 			"lines": [
 				{
 					"id": "mission1",
-					"missionText": "Stepping over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of something like a small feet scratching the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missing your head and you clench the trinket in your pocket, all that you have of your home planet in an attempt to regain your composure.",
+					"missionText": "Steppin' over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of somethin' like a small feet scratchin' the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missin' your head and you clench the trinket in your pocket, all that you have of your home planet in an attempt to regain your composure.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Check it out",
-							"resultText": "A Martian droid is cutting wires and trying to break into your ship's mainframe. You throw robot against the wall, crushing it. You dash back upstairs as the ship suddenly starts to descend. Your equipment is blinking as you descend toward an unknown planet. Thankfully, your steering is intact and you avoid crash landing. As you gather your bearings you notice the damaged Martian droid slither out the cargo door.",
+							"resultText": "A Martian droid is cuttin' wires and tryin' to break into your ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Your equipment is blinkin' as you descend toward an unknown planet. Thankfully, your steerin' is intact and you avoid crash landin'. As you gather your bearin's you notice the damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
-							"flavorText": "sounds like something doesn't belong down here",
+							"flavorText": "sounds like somethin' doesn't belong down here",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
 							"exhaustionEffect": 0
@@ -45,7 +45,7 @@
 						{
 							"id": "action2",
 							"btnText": "Don't mess with it",
-							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel your ship begin to descend. Your equipment flashes, a strange planet dead ahead. The steering is out, you have no control. The ship crashes in a deserted wasteland, damaging the outside of your ship. As you gather your bearings you notice a damaged Martian droid slither out the cargo door.",
+							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel your ship begin to descend. Your equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of your ship. As you gather your bearin's you notice a damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
 							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
 							"depressionEffect": 0,
@@ -58,12 +58,12 @@
 				},
 				{
 					"id": "mission2",
-					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Your Peace mission was a failure, but they failed to kill you. That had to count for something.Considering your surroundings it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"suffering\" or \"agony\", which was adequate to what you felt looking up into Planet 9's foreign sky. ",
+					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Your Peace mission was a failure, but they failed to kill you. That had to count for somethin'.Considerin' your surroundin's it was safe to assume that you were on a planet commonly known as 9. \"9\" sounds similar to the Japanese word for \"sufferin'\" or \"agony\", which was adequate to what you felt lookin' up into Planet 9's foreign sky. ",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "It's just electricity",
-							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from your tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumping down and running back safely into the ship. Not long after  lightening strikes- and misses. ",
+							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from your tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
 							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
 							"depressionEffect": 99,
 							"anxietyEffect": 2,
@@ -73,7 +73,7 @@
 						{
 							"id": "",
 							"btnText": "I ain't touchin' nothin'",
-							"resultText": "The droid didn't make it far. Upon catching up with it you find that it not only has a powerful battery that can jump your ship but a piece of the ship's navigation system.",
+							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump your ship but a piece of the ship's navigation system.",
 							"exitBtnText": "",
 							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
 							"depressionEffect": 0,
@@ -86,7 +86,7 @@
 				},
 				{
 					"id": "mission3",
-					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgiving depths of space. Be brave, keep it together. You can't let it end here. You clutch your trinket and take in a deep breath. Suddenly, you hear a loud BEEP. You look over and find that your navigation system has joined your struggle- it's no longer offline but it's not working well, either. You see Earth's location.",
+					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgivin' depths of space. Be brave, keep it together. You can't let it end here. You clutch your trinket and take in a deep breath. Suddenly, you hear a loud BEEP. You look over and find that your navigation system has joined your struggle- it's no longer offline but it's not workin' well, either. You see Earth's location.",
 					"actions": [
 						{
 							"id": "action1",
@@ -160,21 +160,21 @@
 				{
 					"id": "item1",
 					"buttonText": "Badge",
-					"flavorText": "Your father was best damn sheriff your hometown ever had, a real \"Man of Steel\". Holding this old piece of junk gives you more confidence than you have ever had before.",
+					"flavorText": "Your father was best damn sheriff your hometown ever had, a real \"Man of Steel\". Holdin' this old piece of junk gives you more confidence than you have ever had before.",
 					"itemImage": "2e9b0adcba28c8f8cd8d8e2eb9327fdd",
 					"flavorTitle": "Badge (+Anxiety)"
 				},
 				{
 					"id": "item2",
 					"buttonText": "Photograph",
-					"flavorText": "Looking at this faded photograph reminds you of what you need to come back to and gives you hope for the future. ",
+					"flavorText": "Lookin' at this faded photograph reminds you of what you need to come back to and gives you hope for the future. ",
 					"itemImage": "bcac1b067c7fd74ec90921cd571403c9",
 					"flavorTitle": "Photograph (+Depression)"
 				},
 				{
 					"id": "item3",
 					"buttonText": "Rosary",
-					"flavorText": "Allow God's strength to flow through you as you feel each bead run through your fingertips. The Romans have been doing it for centuries, so it must be better than counting sheep. ",
+					"flavorText": "Allow God's strength to flow through you as you feel each bead run through your fingertips. The Romans have been doin' it for centuries, so it must be better than countin' sheep. ",
 					"itemImage": "a8a3337d97932dddeda3212ce1514c28",
 					"flavorTitle": "Rosary (+Exhaustion)"
 				}

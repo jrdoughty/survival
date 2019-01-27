@@ -1,5 +1,6 @@
 package states;
 
+import h2d.Tile;
 import h2d.Text.Align;
 import util.Button;
 import h2d.Bitmap;
@@ -23,9 +24,14 @@ class PickState extends BaseState
 
         t = Tools.createTextStringXY(this, mission.missionText,5,18);
 		t.maxWidth = 300;
-        
+        var tile = Tile.fromColor(0xFF10232b,320,80);
+        var bmp = new Bitmap(tile,this);
+        bmp.y = 163;
+        bmp.x = 0;
+        bmp.alpha = .5;
         t = Tools.createTextStringXY(this, '',5,160);
         t.maxWidth = 300;
+        t.color.setColor(Reg.buttonTextColor);
         var iteration = 0;
         if(mission.actions.length != 0)
         {

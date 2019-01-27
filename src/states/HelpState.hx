@@ -20,46 +20,18 @@ class HelpState extends BaseState
 	override public function init():Void
 	{
 		super.init();
-		new Bitmap(Res.menubackground.toTile(), this);
 		var text:Text;
 		text = new Text(DefaultFont.get(), this);
 		text.text = "Help";
-		text.x =120;
+		text.maxWidth = 320;
+		text.textAlign = Align.Center;
 
 		text = new Text(DefaultFont.get(), this);
 		text.text = "Press A Left or Click to";
 		text.x = 0;
 		text.y = 50;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "go Left and Press D Right";
-		text.x = 0;
-		text.y = 70;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "or Right Click to go Right";
-		text.x = 0;
-		text.y = 90;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "and shield your loyal";
-		text.x = 0;
-		text.y = 110;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "minions from arrow fire";
-		text.x = 0;
-		text.y = 130;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "Double Tap to perform a dash";
-		text.x = 0;
-		text.y = 150;
-
-		text = new Text(DefaultFont.get(), this);
-		text.text = "Double Tap to perform a dash";
-		text.x = 0;
-		text.y = 170;
+		text.maxWidth = 320;
+		text.textAlign = Align.Center;
 		new Button(this,25, 200, 120, 30, new Bitmap(Res.button.toTile()), "PLAY", play);
 		new Button(this,160, 200, 120, 30, new Bitmap(Res.button.toTile()), "MENU", menu);
 	}

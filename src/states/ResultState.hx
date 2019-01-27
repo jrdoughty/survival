@@ -5,6 +5,7 @@ import h2d.Bitmap;
 import hxd.Res;
 import util.Tools;
 import systems.Data;
+import h2d.Tile;
 
 class ResultState extends BaseState
 {	
@@ -26,6 +27,11 @@ class ResultState extends BaseState
 					{
 		        		var t = Tools.createTextStringXY(this, j.resultText,0,0);
 						t.maxWidth = 300;
+						var tile = Tile.fromColor(0xFF10232b,320,80);
+						var bmp = new Bitmap(tile,this);
+						bmp.y = 163;
+						bmp.x = 0;
+						bmp.alpha = .5;
 						Reg.anxiety += Std.int(j.anxietyEffect * Reg.anxietyMod);
 						Reg.depression += Std.int(j.depressionEffect * Reg.depressionMod);
 						Reg.exhaustion += Std.int(j.exhaustionEffect * Reg.exhaustionMod);
