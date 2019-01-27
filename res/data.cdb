@@ -36,7 +36,7 @@
 							"id": "action1",
 							"btnText": "Check it out",
 							"resultText": "A Martian droid is cuttin' wires and tryin' to break into yer ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Yer equipment is blinkin' as you descend toward an unknown planet. Thankfully, yer steerin' is intact and you avoid crash landin'. As you gather yer bearin's you notice the damaged Martian droid slither out the cargo door.",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "Sounds like somethin' doesn't belong down there.",
 							"depressionEffect": 0,
 							"anxietyEffect": 50,
@@ -46,7 +46,7 @@
 							"id": "action2",
 							"btnText": "Don't mess with it",
 							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel yer ship begin to descend. Yer equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of yer ship. As you gather yer bearin's you notice a damaged Martian droid slither out the cargo door.",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
 							"depressionEffect": 50,
 							"anxietyEffect": 25,
@@ -54,7 +54,7 @@
 						}
 					],
 					"title": "WHAT'S THAT NOISE?",
-					"missionImage": "6b5936fe7d5a2b7e843eff3f1ceb1495"
+					"missionImage": "0078e0794b4e87d14ca305dfdb3ec3e2"
 				},
 				{
 					"id": "mission2",
@@ -68,13 +68,13 @@
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
 							"exhaustionEffect": 50,
-							"exitBtnText": ""
+							"exitBtnText": "PROCEED"
 						},
 						{
 							"id": "",
 							"btnText": "I ain't touchin' nothin'",
 							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump yer ship but a piece of the ship's navigation system.",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
 							"depressionEffect": 25,
 							"anxietyEffect": 50,
@@ -82,7 +82,7 @@
 						}
 					],
 					"title": "PLANET 9",
-					"missionImage": "93b6ded80e6ede69f91a56d461c2e27f"
+					"missionImage": "3269056ecb07fdbaee16d710d9512a0a"
 				},
 				{
 					"id": "mission3",
@@ -92,7 +92,7 @@
 							"id": "action1",
 							"btnText": "Use autopilot",
 							"resultText": "Just as the ship's computer accepts yer command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "\"Computer- set course for home!\"",
 							"depressionEffect": 25,
 							"anxietyEffect": 50,
@@ -102,7 +102,7 @@
 							"id": "action2",
 							"btnText": "Take control",
 							"resultText": "The navigation screen dies just as you memorize its map. You take a hold of the steering wheel and push forward... but what direction are you going? The stars and planets you were supposed to pass are not there. What's goin' on?",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "Memorize the map and take control! The ship failed before and you ended up in a vortex.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
@@ -120,7 +120,7 @@
 							"id": "home",
 							"btnText": "Stay the course!",
 							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. ",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "Stay the course! No astriod's goin' to get the best of me!",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
@@ -130,7 +130,7 @@
 							"id": "space",
 							"btnText": "Dive into the Black Hole",
 							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
-							"exitBtnText": "",
+							"exitBtnText": "PROCEED",
 							"flavorText": "What do I have to lose?",
 							"depressionEffect": 50,
 							"anxietyEffect": 0,
@@ -148,7 +148,7 @@
 							"id": "action1",
 							"btnText": "The End",
 							"resultText": "",
-							"exitBtnText": "Credits",
+							"exitBtnText": "CREDITS",
 							"flavorText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
@@ -168,7 +168,7 @@
 							"id": "action1",
 							"btnText": "The End",
 							"resultText": "",
-							"exitBtnText": "Credits",
+							"exitBtnText": "CREDITS",
 							"flavorText": "As your ship comes to the edge of the asteroid field, your mind begins to settle. The quiet, once disturbing, now settles your bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
@@ -211,7 +211,7 @@
 					"id": "item1",
 					"buttonText": "Badge",
 					"flavorText": "Yer father was best damn sheriff yer hometown ever had, a man of real 'grit'. Holdin' this old piece of metal steels your confidence.",
-					"itemImage": "f7d290cbd77c8d9361d12343bd82754f",
+					"itemImage": "57f35c27a69a882ad8414f9543919965",
 					"flavorTitle": "Badge (+Anxiety)"
 				},
 				{
@@ -225,7 +225,7 @@
 					"id": "item3",
 					"buttonText": "Rosary",
 					"flavorText": "Preacher back home said it'd give you strength... feelin' each bead run through your fingertips. The Romans have been doin' it for centuries, so it must be better than countin' sheep. ",
-					"itemImage": "a90d577c6c8179d5c8c13b191cfbbf8a",
+					"itemImage": "84c565c078294c908e804bbead48bbc0",
 					"flavorTitle": "Rosary (+Exhaustion)"
 				}
 			],
