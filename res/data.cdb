@@ -181,14 +181,14 @@
 				{
 					"id": "item1",
 					"buttonText": "Badge",
-					"flavorText": "Yer father was best damn sheriff yer hometown ever had, a real \"Man of Steel\". Holdin' this old piece of junk gives you more confidence than you have ever had before.",
+					"flavorText": "Yer father was best damn sheriff yer hometown ever had, a man of real 'grit'. Holdin' this old piece of metal steels your confidence.",
 					"itemImage": "2e9b0adcba28c8f8cd8d8e2eb9327fdd",
 					"flavorTitle": "Badge (+Anxiety)"
 				},
 				{
 					"id": "item2",
 					"buttonText": "Photograph",
-					"flavorText": "Lookin' at this faded photograph reminds you of what you need to come back to and gives you hope for the future. ",
+					"flavorText": "Nothin' like seein' a glimpse of home. Lookin' at this faded photograph reminds you of what you need to come back to and gives ya much needed hope. ",
 					"itemImage": "bcac1b067c7fd74ec90921cd571403c9",
 					"flavorTitle": "Photograph (+Depression)"
 				},

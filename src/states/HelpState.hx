@@ -28,11 +28,10 @@ class HelpState extends BaseState
 		text.textAlign = Align.Center;
 
 		text = new Text(DefaultFont.get(), this);
-		text.text = "Press A Left or Click to";
-		text.x = 0;
-		text.y = 50;
-		text.maxWidth = 320;
-		text.textAlign = Align.Center;
+		text.text = "Bein' in the deep darkness of space would break lesser folk, but even those with your git only have so much time.\n\rThe longer yer out, the worse yer Anxiety, Depression, and Exhaustion will get. If any of these go over 100, your mind will slip, and you won't be able to make it home...\n\rRemember, that momento you took from home may be the one thing to steel yer nerves out in deep space.";
+		text.x = 5;
+		text.y = 20;
+		text.maxWidth = 300;
 		new Button(this,25, 200, 120, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "PLAY", play);
 		new Button(this,160, 200, 120, 30, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), "MENU", menu);
 	}

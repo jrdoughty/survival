@@ -18,14 +18,25 @@ class PickState extends BaseState
         {
             new Bitmap(Reg.images[mission.missionImage].toTile(),this);
         }
+        var tile = Tile.fromColor(0xFF10232b,320,20);
+        var bmp = new Bitmap(tile,this);
+        bmp.y = 0;
+        bmp.x = 0;
+        bmp.alpha = .5;
         var t = Tools.createTextStringXY(this, mission.title,0,0);
+        t.color.setColor(Reg.buttonTextColor);
 		t.maxWidth = 320;
+        t.textAlign = Align.Center;
+        t = Tools.createTextStringXY(this, '',5,160);
+        t = Tools.createTextStringXY(this, 'A:'+Reg.anxiety+' D:'+Reg.depression+' E:'+Reg.exhaustion,220,0);
+        t.color.setColor(Reg.buttonTextColor);
+		t.maxWidth = 100;
         t.textAlign = Align.Center;
 
         t = Tools.createTextStringXY(this, mission.missionText,5,18);
 		t.maxWidth = 300;
-        var tile = Tile.fromColor(0xFF10232b,320,80);
-        var bmp = new Bitmap(tile,this);
+        tile = Tile.fromColor(0xFF10232b,320,80);
+        bmp = new Bitmap(tile,this);
         bmp.y = 163;
         bmp.x = 0;
         bmp.alpha = .5;

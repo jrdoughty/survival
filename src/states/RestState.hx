@@ -14,8 +14,18 @@ class RestState extends BaseState
 	public override function init()
 	{
         new Bitmap(Reg.images[Data.config.all[0].restBG].toTile(),this);
-        var t = Tools.createTextStringXY(this, 'Rest',0,0);
+        var tile = Tile.fromColor(0xFF10232b,320,20);
+        var bmp = new Bitmap(tile,this);
+        bmp.y = 0;
+        bmp.x = 0;
+        bmp.alpha = .5;
+        var t = Tools.createTextStringXY(this, 'REST',0,0);
 		t.maxWidth = 320;
+        t.textAlign = Align.Center;
+        t.color.setColor(Reg.buttonTextColor);
+        t = Tools.createTextStringXY(this, 'A:'+Reg.anxiety+' D:'+Reg.depression+' E:'+Reg.exhaustion,220,0);
+        t.color.setColor(Reg.buttonTextColor);
+		t.maxWidth = 100;
         t.textAlign = Align.Center;
 
         t = Tools.createTextStringXY(this, 'Perhaps you should rest your eyes and mind... or blow off some steam...',5,18);
