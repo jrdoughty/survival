@@ -110,7 +110,7 @@
 						}
 					],
 					"title": "BACK TO THE SHIP",
-					"missionImage": "d8e41d4fc4b79bf8415be3f106b817c1"
+					"missionImage": "8ab3182c71d6c8a9a04825708ff308d2"
 				},
 				{
 					"id": "mission4",
@@ -123,8 +123,8 @@
 							"exitBtnText": "PROCEED",
 							"flavorText": "Stay the course! No astriod's goin' to get the best of me!",
 							"depressionEffect": 0,
-							"anxietyEffect": 25,
-							"exhaustionEffect": 50
+							"anxietyEffect": 0,
+							"exhaustionEffect": 0
 						},
 						{
 							"id": "space",
@@ -132,9 +132,9 @@
 							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
 							"exitBtnText": "PROCEED",
 							"flavorText": "What do I have to lose?",
-							"depressionEffect": 50,
+							"depressionEffect": 0,
 							"anxietyEffect": 0,
-							"exhaustionEffect": 25
+							"exhaustionEffect": 0
 						}
 					],
 					"title": "ASTRIODS",
