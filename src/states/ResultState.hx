@@ -32,6 +32,7 @@ class ResultState extends BaseState
 						bmp.y = 163;
 						bmp.x = 0;
 						bmp.alpha = .5;
+						
 						Reg.anxiety += Std.int(j.anxietyEffect * Reg.anxietyMod);
 		        		t = Tools.createTextStringXY(this, "Anxiety: "+Reg.anxiety,5,165);
 						t.color.setColor(Reg.buttonTextColor);
