@@ -37,10 +37,10 @@
 							"btnText": "Check it out",
 							"resultText": "A Martian droid is cuttin' wires and tryin' to break into your ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Your equipment is blinkin' as you descend toward an unknown planet. Thankfully, your steerin' is intact and you avoid crash landin'. As you gather your bearin's you notice the damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
-							"flavorText": "sounds like somethin' doesn't belong down here",
+							"flavorText": "Sounds like somethin' doesn't belong down here",
 							"depressionEffect": 0,
-							"anxietyEffect": 0,
-							"exhaustionEffect": 0
+							"anxietyEffect": 50,
+							"exhaustionEffect": 25
 						},
 						{
 							"id": "action2",
@@ -48,8 +48,8 @@
 							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel your ship begin to descend. Your equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of your ship. As you gather your bearin's you notice a damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "",
 							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
+							"depressionEffect": 50,
+							"anxietyEffect": 25,
 							"exhaustionEffect": 0
 						}
 					],
@@ -65,9 +65,9 @@
 							"btnText": "It's just electricity",
 							"resultText": "You go back to the cargo bay and find an iron rod and grab a roll of duct tape from your tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
 							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
-							"depressionEffect": 99,
-							"anxietyEffect": 2,
-							"exhaustionEffect": 2,
+							"depressionEffect": 0,
+							"anxietyEffect": 25,
+							"exhaustionEffect": 50,
 							"exitBtnText": ""
 						},
 						{
@@ -76,8 +76,8 @@
 							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump your ship but a piece of the ship's navigation system.",
 							"exitBtnText": "",
 							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
+							"depressionEffect": 25,
+							"anxietyEffect": 50,
 							"exhaustionEffect": 0
 						}
 					],
@@ -92,21 +92,21 @@
 							"id": "action1",
 							"btnText": "Use autopilot",
 							"resultText": "autopilot result",
-							"exitBtnText": "",
+							"exitBtnText": "Just as the ship's computer accepts your command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
 							"flavorText": "\"Computer- set course for home!\"",
-							"depressionEffect": 0,
-							"anxietyEffect": 0,
+							"depressionEffect": 25,
+							"anxietyEffect": 50,
 							"exhaustionEffect": 0
 						},
 						{
 							"id": "action2",
 							"btnText": "Take control",
 							"resultText": "control result",
-							"exitBtnText": "",
+							"exitBtnText": "The navigation screen dies just as you memorize its map. You take a hold of the steering wheel and push forward... but what direction are you going? The stars and planets you were supposed to pass are not there. What's goin' on?",
 							"flavorText": "Memorize the map and take control! The ship failed before and you ended up in a vortex.",
 							"depressionEffect": 0,
-							"anxietyEffect": 0,
-							"exhaustionEffect": 0
+							"anxietyEffect": 25,
+							"exhaustionEffect": 50
 						}
 					],
 					"title": "BACK TO THE SHIP",
@@ -114,14 +114,35 @@
 				},
 				{
 					"id": "mission4",
-					"missionText": "",
-					"actions": [],
+					"missionText": "If you thought Space was done with you- well, bless your little heart. Outside your window now are astriods coming in HOT! You steer to the left, to the right, up, down over and out- only to miss them by mere inches. Out of the corner of your eye you see a dark void, almost like the one you fell through what feels like years ago.",
+					"actions": [
+						{
+							"id": "",
+							"btnText": "",
+							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. You can't help but wonder, \"Is this my new home?\".",
+							"exitBtnText": "Stay the course!",
+							"flavorText": "Stay the course! No astriod's goin' to get the best of me.",
+							"depressionEffect": 0,
+							"anxietyEffect": 25,
+							"exhaustionEffect": 50
+						},
+						{
+							"id": "",
+							"btnText": "",
+							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Your head is swimmin', your heart is pounding, and there is nothin' but darkness outside your window.",
+							"exitBtnText": "Dive into the Black Hole",
+							"flavorText": "What do I have to lose?",
+							"depressionEffect": 50,
+							"anxietyEffect": 0,
+							"exhaustionEffect": 25
+						}
+					],
 					"title": "ASTRIODS",
 					"missionImage": "ae1b879fbe1a8240ddf4e22d3069fd49"
 				},
 				{
 					"id": "mission5",
-					"missionText": "",
+					"missionText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
 					"actions": [],
 					"title": "HOME SWEET HOME?",
 					"missionImage": "49c1eaf609817e14cec19747c2a07567"
