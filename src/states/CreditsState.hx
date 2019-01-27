@@ -28,6 +28,14 @@ class CreditsState extends BaseState
 		t = Tools.createTextStringXY(this, "John Doughty: Code and Audio", 0, 80);
 		t.maxWidth = 320;
 		t.textAlign = Align.Center;
+		if(Reg.missionIndex >5)
+		{
+			t = Tools.createTextStringXY(this, "Congrats, ya found yer way come. I was fixin' to pour you a glass of something strong, but... Well, I'll just say good work!", 0, 115);
+			t.maxWidth = 320;
+			t.textAlign = Align.Center;
+		}
+		
+
 		
 		new util.Button(this, 75, 180, 150, 50, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile(), this), "Menu", menu, 27);
 	}

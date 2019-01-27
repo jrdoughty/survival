@@ -149,7 +149,7 @@
 							"btnText": "The End",
 							"resultText": "",
 							"exitBtnText": "CREDITS",
-							"flavorText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
+							"flavorText": "",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
 							"exhaustionEffect": 0
@@ -169,7 +169,25 @@
 							"btnText": "The End",
 							"resultText": "",
 							"exitBtnText": "CREDITS",
-							"flavorText": "As your ship comes to the edge of the asteroid field, your mind begins to settle. The quiet, once disturbing, now settles your bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
+							"flavorText": "",
+							"depressionEffect": 0,
+							"anxietyEffect": 0,
+							"exhaustionEffect": 0
+						}
+					]
+				},
+				{
+					"id": "mission7",
+					"missionImage": "a0fc863f32165d74db8c45403ddec5b6",
+					"title": "SPACE WAS JUST TOO MUCH",
+					"missionText": "",
+					"actions": [
+						{
+							"id": "action1",
+							"btnText": "RESTART",
+							"resultText": "Sorry, but ya just didn't quite make it home. I know what getting there meant to ya... but what can I say, it jus' wasn't meant to be...",
+							"exitBtnText": "RESTART",
+							"flavorText": "",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
 							"exhaustionEffect": 0

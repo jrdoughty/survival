@@ -13,7 +13,8 @@ class ResultState extends BaseState
 	public override function init()
 	{ 
         var mission = Data.Missions.all[Reg.missionIndex];
-		Reg.missionIndex++;
+		if(Reg.missionIndex != 6)
+			Reg.missionIndex++;
 		if(Reg.missionIndex == 4)
 		{
 			for(i in mission.actions)
@@ -50,8 +51,12 @@ class ResultState extends BaseState
 				t = Tools.createTextStringXY(this, "                 +"+Std.int(j.exhaustionEffect * Reg.exhaustionMod)+"\n\rExhaustion: "+Reg.exhaustion,210,165);
 				t.color.setColor(Reg.buttonTextColor);
 				
-
-				if(Reg.anxiety < 100 && Reg.depression < 100 && Reg.exhaustion < 100)
+				trace(Reg.missionIndex);
+				if(Reg.missionIndex == 6)
+				{
+					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), j.exitBtnText, restart, 18);
+				}
+				else if(Reg.anxiety < 100 && Reg.depression < 100 && Reg.exhaustion < 100)
 				{
 					new Button(this,5, 200, 310, 34, new Bitmap(Reg.images[Data.config.all[0].buttonBG].toTile()), j.exitBtnText, pick, 18);
 				}
@@ -93,7 +98,14 @@ class ResultState extends BaseState
 
     function restart(e:hxd.Event)
     {
-        Main.the.changeState(new MenuState());
+		if(Reg.missionIndex != 6)
+		{
+			Reg.missionIndex = 6;
+			Reg.curActionID = 'action1';
+			Main.the.changeState(new ResultState());
+		}
+		else
+			Main.the.changeState(new MenuState());
     }
 
 }

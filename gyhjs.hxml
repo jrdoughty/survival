@@ -8,3 +8,4 @@
 -cp .
 -cp src
 -debug
+-D release
