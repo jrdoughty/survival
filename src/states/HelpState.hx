@@ -56,7 +56,7 @@ class HelpState extends BaseState
 	public function play(e:hxd.Event)
 	{
 		Reg.reset();
-		Main.the.changeState(new PlayState());
+		Main.the.changeState(new StartState());
 	}
 
 	public function menu(e:hxd.Event)

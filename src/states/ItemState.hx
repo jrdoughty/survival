@@ -23,8 +23,9 @@ class ItemState extends BaseState
 		t.maxWidth = 300;
 		t.color.setColor(Reg.buttonTextColor);
         t.textAlign = Align.Center;
-        t = Tools.createTextStringXY(this, 'Before ya left, you brought a momento of home...',0,20);		t.maxWidth = 300;
+        t = Tools.createTextStringXY(this, 'This trinket will help you on your adventure',10,20);		t.maxWidth = 300;
 		t.color.setColor(Reg.buttonTextColor);
+		t.textAlign = Align.Center;
         t = Tools.createTextStringXY(this, '',0,40);
 		t.maxWidth = 300;
 		t.color.setColor(Reg.buttonTextColor);
