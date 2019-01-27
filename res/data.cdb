@@ -117,17 +117,17 @@
 					"missionText": "If you thought Space was done with you- well, bless yer little heart. Outside yer window now are astriods coming in HOT! You steer to the left, to the right, up, down over and out- only to miss them by mere inches. Out of the corner of yer eye you see a dark void, almost like the one you fell through what feels like years ago.",
 					"actions": [
 						{
-							"id": "",
+							"id": "home",
 							"btnText": "Stay the course!",
-							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. You can't help but wonder, \"Is this my new home?\".",
+							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. ",
 							"exitBtnText": "",
-							"flavorText": "Stay the course! No astriod's goin' to get the best of me.",
+							"flavorText": "Stay the course! No astriod's goin' to get the best of me!",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
 							"exhaustionEffect": 50
 						},
 						{
-							"id": "",
+							"id": "space",
 							"btnText": "Dive into the Black Hole",
 							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
 							"exitBtnText": "",
@@ -143,9 +143,38 @@
 				{
 					"id": "mission5",
 					"missionText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
-					"actions": [],
+					"actions": [
+						{
+							"id": "action1",
+							"btnText": "The End",
+							"resultText": "",
+							"exitBtnText": "Credits",
+							"flavorText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
+							"depressionEffect": 0,
+							"anxietyEffect": 0,
+							"exhaustionEffect": 0
+						}
+					],
 					"title": "HOME SWEET HOME?",
 					"missionImage": "49c1eaf609817e14cec19747c2a07567"
+				},
+				{
+					"id": "mission6",
+					"missionImage": "a0fc863f32165d74db8c45403ddec5b6",
+					"title": "HOME SWEET HOME?",
+					"missionText": "As your ship comes to the edge of the asteroid field, your mind begins to settle. The quiet, once disturbing, now settles your bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
+					"actions": [
+						{
+							"id": "action1",
+							"btnText": "The End",
+							"resultText": "",
+							"exitBtnText": "Credits",
+							"flavorText": "As your ship comes to the edge of the asteroid field, your mind begins to settle. The quiet, once disturbing, now settles your bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
+							"depressionEffect": 0,
+							"anxietyEffect": 0,
+							"exhaustionEffect": 0
+						}
+					]
 				}
 			],
 			"separators": [],
