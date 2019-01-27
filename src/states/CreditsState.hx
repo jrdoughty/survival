@@ -28,7 +28,7 @@ class CreditsState extends BaseState
 		t.textAlign = Align.Center;
 		//if(Reg.missionIndex >5)
 		{
-			t = Tools.createTextStringXY(this, "Congrats, ya found yer way home. I was fixin' to pour you a glass of something strong, but... Well, I'll just say good work!", 0, 150);
+			t = Tools.createTextStringXY(this, "Congrats, ya found yer way home. This appeases the creators", 0, 150);
 			t.maxWidth = 320;
 			t.textAlign = Align.Center;
 		}

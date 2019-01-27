@@ -86,11 +86,11 @@ class ResultState extends BaseState
     {
 		if(Reg.missionIndex<4)
 	        Main.the.changeState(new RestState());
-		else if(Reg.missionIndex == 4 || Reg.missionIndex == 5)
+		else if(Reg.missionIndex >= 2 && Reg.missionIndex <= 3)
 		{
 	        Main.the.changeState(new PickState());
 		}
-		else if(Reg.missionIndex > 5)
+		else if(Reg.missionIndex > 3)
 		{
 	        Main.the.changeState(new CreditsState());
 		}
