@@ -54,7 +54,7 @@
 						}
 					],
 					"title": "What's That Noise?",
-					"missionImage": ""
+					"missionImage": "b25d1a1526dee5affbb8f1ad533492dc"
 				},
 				{
 					"id": "mission2",
@@ -93,7 +93,7 @@
 							"btnText": "Use autopilot",
 							"resultText": "autopilot result",
 							"exitBtnText": "",
-							"flavorText": "\"Computer, set course for home!\"",
+							"flavorText": "\"Computer- set course for home!\"",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
 							"exhaustionEffect": 0
@@ -103,7 +103,7 @@
 							"btnText": "Take control",
 							"resultText": "control result",
 							"exitBtnText": "",
-							"flavorText": "Memorize the map and take control, the ship failed before and you ended up in a vortex.",
+							"flavorText": "Memorize the map and take control! The ship failed before and you ended up in a vortex.",
 							"depressionEffect": 0,
 							"anxietyEffect": 0,
 							"exhaustionEffect": 0
@@ -116,18 +116,11 @@
 					"id": "mission4",
 					"missionText": "",
 					"actions": [],
-					"title": "The Cave",
-					"missionImage": ""
-				},
-				{
-					"id": "mission5",
-					"missionText": "",
-					"actions": [],
 					"title": "Astroids",
 					"missionImage": ""
 				},
 				{
-					"id": "mission6",
+					"id": "mission5",
 					"missionText": "",
 					"actions": [],
 					"title": "Home?",
