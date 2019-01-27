@@ -11,6 +11,11 @@ class ResultState extends BaseState
 	
 	public override function init()
 	{ 
+        var mission = Data.Missions.all[Reg.missionIndex];//Math.floor(Data.Missions.all.length*Math.random())];
+        if(mission.missionImage != null && mission.missionImage != "")
+        {
+            new Bitmap(Reg.images[mission.missionImage].toTile(),this);
+        }
 		for(i in Data.Missions.all)
 		{
 			if(i.id == Reg.curMissionID)
