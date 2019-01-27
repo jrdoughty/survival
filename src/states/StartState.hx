@@ -4,6 +4,7 @@ import util.Tools;
 import util.Button;
 import h2d.Bitmap;
 import hxd.Res;
+import h2d.Tile;
 import systems.Data;
 
 class StartState extends BaseState
@@ -11,8 +12,15 @@ class StartState extends BaseState
 	
 	public override function init()
 	{
+        new Bitmap(Res.images.introBG.toTile(),this);
+        var tile = Tile.fromColor(0xFF10232b,320,240);
+        var bmp = new Bitmap(tile,this);
+        bmp.y = 0;
+        bmp.x = 0;
+        bmp.alpha = .5;
         var t = Tools.createTextStringXY(this, 'You\'re and astronaut from the lovely Blue Planet formally known as Earth. Your peace keepin\' mission on Mars was a success. However, thanks to a glitch in your autopilot you have been sucked into a vortex somewhere deep, deep into space.\n\rYour ship is damaged; the navigation equipment is dead and your ship\'s generator has stopped workin\'. Reality hits you like a brick:\n\rSpace is infinite, dark, cold and reasonably quiet... and you are alone and far from home...\n\rAnd what\'s that noise comin\' from the lower deck of your ship?',0,0);
 		t.maxWidth = 300;
+		t.color.setColor(Reg.buttonTextColor);
 		var iteration = 0;
 		var pics:Array<Bitmap> = [];
 		for(i in Data.items.all)
