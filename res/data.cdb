@@ -30,12 +30,12 @@
 			"lines": [
 				{
 					"id": "mission1",
-					"missionText": "Steppin' over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of somethin' like a small feet scratchin' the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missin' yer head and you clench the trinket in yer pocket, all that you have of yer home planet in an attempt to regain yer composure.",
+					"missionText": "Steppin' over broken glass, you make you way slowly down to the lower deck to investigate. You hear echoes of somethin' like small feet scratchin' the floor of the crowded cargo bay, followed by a sharp SNAP. A box falls in front of you, barely missin' yer head. You clench the trinket in yer pocket, all that you have of yer home planet in an attempt to regain yer composure.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Check it out",
-							"resultText": "A Martian droid is cuttin' wires and tryin' to break into yer ship's mainframe. You throw robot against the wall, crushin' it. You dash back upstairs as the ship suddenly starts to descend. Yer equipment is blinkin' as you descend toward an unknown planet. Thankfully, yer steerin' is intact and you avoid crash landin'. As you gather yer bearin's you notice the damaged Martian droid slither out the cargo door.",
+							"resultText": "A Martian droid is cuttin' wires and tryin' to break into yer ship's mainframe. Ya throw robot against the wall, crushin' it. Ya dash back upstairs as the ship suddenly starts to descend. Yer equipment is blinkin' as ya descend toward an unknown planet. Thankfully, yer steerin' is intact and ya avoid crash landin'. As ya gather yer bearin's ya notice the damaged Martian droid slither out the cargo door.",
 							"exitBtnText": "PROCEED",
 							"flavorText": "Sounds like somethin' doesn't belong down there.",
 							"depressionEffect": 0,
@@ -45,7 +45,7 @@
 						{
 							"id": "action2",
 							"btnText": "Don't mess with it",
-							"resultText": "As you climb the stairs you hear a crate shift and metal CRUNCH. Suddenly you feel yer ship begin to descend. Yer equipment flashes, a strange planet dead ahead. The steerin' is out, you have no control. The ship crashes in a deserted wasteland, damagin' the outside of yer ship. As you gather yer bearin's you notice a damaged Martian droid slither out the cargo door.",
+							"resultText": "As ya climb the stairs ya hear a crate shift and metal CRUNCH. Suddenly ya feel yer ship begin to descend. Yer equipment flashes, a strange planet dead ahead. The steerin' is out, ya have no control. The ship crashes in a deserted wasteland, damagin' the outside of yer ship. As ya gather yer bearin's ya notice a damaged Martian driod slither out the cargo door.",
 							"exitBtnText": "PROCEED",
 							"flavorText": "Don't mess with somethin' that ain't botherin' you. Go see if the navigation's workin' again.",
 							"depressionEffect": 50,
@@ -58,12 +58,12 @@
 				},
 				{
 					"id": "mission2",
-					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Yer mission was a failure, but they failed to kill you. That had to count for somethin'. Considerin' yer surroundin's it was safe to assume that you were on a planet commonly known as 9. Ya look up a flash of strange blue lightening shoot across the sky. A bolt strikes near your feet. An idea strikes you - these electrical storms could recharge the ship...",
+					"missionText": "\"Never trust an android to do a Martian's job,\" you growl. Yer mission was a failure, but they failed to kill ya. That has to count for somethin'. Considerin' yer surroundin's it was safe to assume that yer on a planet commonly known as 9. Ya look up a flash of strange blue lightenin' shoot across the sky. A bolt strikes near yer feet. An idea strikes you - these electrical storms could recharge the ship...",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "It's just electricity",
-							"resultText": "You go back to the cargo bay to grab an iron rod and roll of duct tape from yer tool box. You this is risk, and you know you don't have a lot of time so You scramble as quickly as you can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after  lightenin' strikes- and misses. ",
+							"resultText": "Ya go back to the cargo bay to grab an iron rod and roll of duct tape from yer tool box. Ya know ya don't have a lot of time so ya scramble as quickly as ya can to tape the rod into place before jumpin' down and runnin' back safely into the ship. Not long after lightenin' strikes- and misses. ",
 							"flavorText": "It's electricity, I reckon it works the same way as it does on Earth.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
@@ -73,9 +73,9 @@
 						{
 							"id": "",
 							"btnText": "I ain't touchin' nothin'",
-							"resultText": "The droid didn't make it far. Upon catchin' up with it you find that it not only has a powerful battery that can jump yer ship but a piece of the ship's navigation system.",
+							"resultText": "The droid didn't make it far. Upon catchin' up with it ya find that it not only has a powerful battery that can jump yer ship but a piece of the ship's navigation system.",
 							"exitBtnText": "PROCEED",
-							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make him fix the ship.",
+							"flavorText": "I ain't touchin' nothin'! Where's that varmit? Bet I could make 'im fix the ship.",
 							"depressionEffect": 25,
 							"anxietyEffect": 50,
 							"exhaustionEffect": 0
@@ -86,12 +86,12 @@
 				},
 				{
 					"id": "mission3",
-					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgivin' depths of space. Be brave, keep it together. You can't let it end here. You clutch yer trinket and take in a deep breath. Suddenly, you hear a loud BEEP. You look over and find that yer navigation system has joined yer struggle- it's no longer offline but it's not workin' well, either. You see Earth's location.",
+					"missionText": "After much trial and error, the ship has enough of a charge to push itself back into the cold, unforgivin' depths of space. Ya clutch yer trinket and take in a deep breath. Suddenly. Be brave, keep it together. Ya can't let it end here. Ya hear a loud BEEP and look over and find that yer navigation system has joined yer struggle- it's no longer offline but it's not workin' well, either. Ya see Earth's location.",
 					"actions": [
 						{
 							"id": "action1",
 							"btnText": "Use autopilot",
-							"resultText": "Just as the ship's computer accepts yer command it flickers off. You stand in place, stunned. You don't know how to get home. You're lost- no! Worse than lost. You're STUCK, you're going to die here and you know it. It's inevitable. ",
+							"resultText": "Just as the ship's computer accepts yer command it flickers off. Ya stand in place, stunned. Ya don't know how to get home. ya're lost- no! Worse than lost. Yer STUCK, yer going to die here and ya know it. It's inevitable. ",
 							"exitBtnText": "PROCEED",
 							"flavorText": "\"Computer- set course for home!\"",
 							"depressionEffect": 25,
@@ -101,9 +101,9 @@
 						{
 							"id": "action2",
 							"btnText": "Take control",
-							"resultText": "The navigation screen dies just as you memorize its map. You take a hold of the steering wheel and push forward... but what direction are you going? The stars and planets you were supposed to pass are not there. What's goin' on?",
+							"resultText": "The navigation screen dies just as ya memorize its map. Ya take a hold of the steerin' wheel and push forward... but what direction are ya going? The stars and planets ya were supposed to pass are not there. What's goin' on?",
 							"exitBtnText": "PROCEED",
-							"flavorText": "Memorize the map and take control! The ship failed before and you ended up in a vortex.",
+							"flavorText": "Memorize the map and take control! The ship failed before and ya ended up in a vortex.",
 							"depressionEffect": 0,
 							"anxietyEffect": 25,
 							"exhaustionEffect": 50
@@ -114,12 +114,12 @@
 				},
 				{
 					"id": "mission4",
-					"missionText": "If you thought Space was done with you- well, bless yer little heart. Outside yer window now are astriods coming in HOT! You steer to the left, to the right, up, down over and out- only to miss them by mere inches. Out of the corner of yer eye you see a dark void, almost like the one you fell through what feels like years ago.",
+					"missionText": "If ya thought Space was done with you- well, bless yer little heart. Outside yer window now are astriods comin' in HOT! Ya steer to the left, to the right, up, down over and out- only to miss 'emby mere inches. Out of the corner of yer eye ya see a dark void, almost like the one ya fell through what seems like years ago.",
 					"actions": [
 						{
 							"id": "home",
 							"btnText": "Stay the course!",
-							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. You see a light upon horizon. Worn, broken, this gives you a sense of hope. ",
+							"resultText": "The battle goes on for what feels like an centuries. Finally, there is victory. Ya see a light upon horizon. Worn, broken, this gives ya a sense of hope. ",
 							"exitBtnText": "PROCEED",
 							"flavorText": "Stay the course! No astriod's goin' to get the best of me!",
 							"depressionEffect": 0,
@@ -129,7 +129,7 @@
 						{
 							"id": "space",
 							"btnText": "Dive into the Black Hole",
-							"resultText": "You feel as though you're coming inside out. Whatever made sense before means nothing now. You don't remember what happened the first time you fell through the void but you know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
+							"resultText": "Ya feel as though yer coming inside out. Whatever made sense before means nothin' now. Ya don't remember what happened the first time ya fell through the void but ya know it was nothin' like this. Yer head is swimmin', yer heart is pounding, and there is nothin' but darkness outside yer window.",
 							"exitBtnText": "PROCEED",
 							"flavorText": "What do I have to lose?",
 							"depressionEffect": 0,
@@ -142,7 +142,7 @@
 				},
 				{
 					"id": "mission5",
-					"missionText": "Just when you think you can't take it anymore- there is light. A glorious light. You swear it's Heaven. What else could it be? You blink- no, this isn't Heaven. No, it's Earth. You made it. You're alive and you're home.",
+					"missionText": "Just when ya think ya can't take it anymore- there is light. A glorious light. ya swear it's Heaven. What else could it be? Ya blink- no, this isn't Heaven. No, it's Earth. Ya made it. Yer alive and yer home.",
 					"actions": [
 						{
 							"id": "action1",
@@ -162,7 +162,7 @@
 					"id": "mission6",
 					"missionImage": "a0fc863f32165d74db8c45403ddec5b6",
 					"title": "HOME SWEET HOME?",
-					"missionText": "As your ship comes to the edge of the asteroid field, your mind begins to settle. The quiet, once disturbing, now settles your bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
+					"missionText": "As yer ship comes to the edge of the asteroid field, yer mind begins to settle. The quiet, once disturbin', now settles yer bones. Ya can't help but wonder, \"Is this my new home? Is this where I'm meant to be?\".",
 					"actions": [
 						{
 							"id": "action1",
